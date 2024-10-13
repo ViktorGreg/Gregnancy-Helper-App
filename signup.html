@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Pregnancy Helper App
+    </title>
+</head>
+<style>
+    body{
+        margin: 0;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .div1{
+        height: 100vh;
+        width: 35vw;
+        background: linear-gradient(#ffdab9, #ff738b);
+    }
+    .div2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 65vw;
+        background: linear-gradient(#FFFED3, #B1AFFF);
+        font-size: 45px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        padding-top: 2vh;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 0;
+    }
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 3vh;
+        height: 65vh;
+        width: 30.5vw;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px black;
+        background-color: #f0f8ff;
+        padding-left: 2vw;
+        padding-bottom: 3vh;
+    }
+    .placeholder{
+        padding-left: 8px;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 18px;
+        border: none;
+        width: 28vw;
+        height: 5vh;
+    }
+    .subb{
+        font-weight: bold;
+        height: 40px;
+        width: 375px;
+        font-size: 12px;
+        border-radius: 10px;
+        border: none;
+        background-color: #B1AFFF;
+        box-shadow: 5px 5px 10px #e4b47d;
+        cursor: pointer;
+    }
+    .subb:hover{
+        background-color: black;
+        color: white;
+        color: FFFED3;
+        opacity: 70%;
+        transition: 0.5s;
+    }
+    .dmenu{
+        height: 25px;
+        width: 80px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 2px 2px 6px black;
+    }
+
+</style>
+<body>
+    <div class="div1">
+        <p style="text-shadow: 15px 8px 6.5px #9c99ff;
+        padding-left: 20px;
+        padding-top: 80px;
+        font-size: 80px;
+        font-weight: bold;
+        color: white;">
+            Hello Friend!
+        </p>
+
+        <p style="font-style: italic;
+        margin-top: 25px;
+        padding-left: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        color: white;">
+            You will be a wonderful parent~
+        </p>
+    </div>
+    <div class="div2">
+        <p>
+            Pregnancy Helper App
+        </p>
+        <div class="container">
+            <form class="container1" action="home.html" method="post">
+            <label for="username">Username</label>
+            <input class="placeholder" type="username" placeholder="Username" id="uname" required><p></p>
+
+            <label for="email">Email</label>
+            <input class="placeholder" type="email" placeholder="Email: " id="emll" required><p></p>
+
+            <label for="password">Password</label>
+            <input class="placeholder" type="password" placeholder="Password: " id="psw" required><p></p>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input class="placeholder" type="password" placeholder="Confirm Passwor: " id="con_psw" required><p></p>
+
+            <label style="padding-top: 1vh;" for="gender">Gender</label>
+            <select class="dmenu" name="gender">
+                <option value="">N/A</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                </select><p></p>
+                <p style="font-size: 12px; font-family: Arial, Helvetica, sans-serif; text-align: center;">
+                    By registering, you're agreeing to our <a href="">Terms of Service</a> and 
+                    <a href="">Community Rules</a>.
+                </p>
+
+            <button class="subb" onclick="checkPassword()" type="submit">
+                Submit
+            </button>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    let pass = document.getElementById("psw")
+    , conPass = document.getElementById("con_psw");
+
+    function checkPassword(){
+            if(pass.value != conPass.value) {
+                conPass.setCustomValidity("Passwords do not match.");
+            } else {
+                conPass.setCustomValidity('');
+            }
+        }
+</script>
+</html>
