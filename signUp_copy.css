@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-1{
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+    background: linear-gradient(#ff738b, #ffdab9);
+}
+.container-1 h1{
+    font-size: 6em;
+    text-shadow: 5px 5px 4px #9c99ff;
+    color: white;
+    
+}
+.container-2{
+    background: linear-gradient(#C4E4FF, #F0F8FF);
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container-2 h1{
+    font-size: 3em;
+    text-shadow: 5px 5px 4px #9c99ff;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.content{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0f8ff;
+    box-shadow: 3px 3px 3px rgb(43, 43, 43);
+    border-radius: 15px;
+    padding: 20px;
+}
+form p{
+    text-align: center;
+    font-size: 15px;
+}
+form input, button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 95%;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 2px black;
+    margin: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(103, 102, 102);
+    box-shadow: 1px 1px 2px #ffdab9;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+select{
+    margin: 5px;
+    width: 99%;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
