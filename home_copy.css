@@ -4,6 +4,7 @@ body{
     margin: 0;
 }
 header{
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     background-color: #FFE9D0;

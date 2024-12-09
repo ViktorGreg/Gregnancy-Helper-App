@@ -57,9 +57,11 @@ text-align: center; /* Center text horizontally */
 
 
 body {
+
     background: linear-gradient(#ff738b, #ffdab9);
 }
 .menu_bar {
+    border-bottom: 1px solid black;
     background-color: #FFE9D0;
     height: 80px;
     width: 100%;
