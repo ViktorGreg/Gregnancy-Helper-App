@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">14th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Welcome to your second trimester!</b></p>
+            <p>This is many moms' favorite part of pregnancy. You'll feel your baby move, see them on an ultrasound, and get a break from some unpleasant early and late pregnancy symptoms.</p>
+            <p><b>Maternity photo shoot ideas</b></p>
+            <p>If you're thinking of taking special maternity photos, here are tips on when, where, and how to get the best pregnancy pictures.</p>
+            <p><b>Gaining weight?</b></p>
+            <p>Check out our medically reviewed chart to find your target pregnancy weight gain depending on your pre-pregnancy weight and whether you're carrying one child or twins.Check out our medically reviewed chart to find your target pregnancy weight gain depending on your pre-pregnancy weight and whether you're carrying one child or twins.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 14 weeks</h1>
+            <p><b>Making faces</b></p>
+            <p>Thanks to brain impulses, your baby's facial muscles are getting a workout. Those tiny features can squint, frown, and grimace. Your baby is also making sucking and chewing movements.</p>
+            <p><b>Growing hair</b></p>
+            <p>Soft baby hair is coming: Hair follicles have started to form deep in your baby's skin. Around 20 weeks, fine downy hair will sprout from these follicles on your baby's eyebrows, upper lip, and chinSoft baby hair is coming: Hair follicles have started to form deep in your baby's skin. Around 20 weeks, fine downy hair will sprout from these follicles on your baby's eyebrows, upper lip, and chin.</p>
+            <p><b>Your active baby</b></p>
+            <p>Though you can't feel those tiny punches and kicks yet, your baby is quite active and has flexible hands and feet.</p>
+            <p><b>They grow so fast!</b></p>
+            <p>You may wonder why this week's fetal length measurement (below) is so much bigger than last week's. Your baby hasn't doubled in length in a week – there's just a change in how they're measured at 14 weeks (from head to bottom to head to toe).</p>
+            
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 14</h1>
+            <p><b>No more morning sickness?</b></p>
+            <p>Your energy is likely returning, and your queasiness may have eased by now. If not, hang on – chances are good that morning sickness will soon be behind you if it's not already. Although it's uncommon, some expecting moms will still feel nauseated months from now. Tell your healthcare provider at your next appointment if you're still having nausea or vomiting.</p>
+            <p><b>Starting to show</b></p>
+            <p>The top of your uterus is a bit above your pubic bone, which may be enough to push your tummy out a tad. Starting to show can be quite a thrill, giving you and your partner visible evidence of the baby you're waiting for. If you're curious about how other women look at 14 weeks pregnant, check out our pregnant bellies photo gallery.</p>
+            <p><b>Bleeding gums</b></p>
+            <p>About half of pregnant women have swollen, red, tender gums that bleed when flossed or brushed. This gum inflammation, called pregnancy gingivitis, is partly caused by hormonal changes that make your gums more sensitive to the bacteria in plaque. Be sure to brush your teeth twice daily, and floss daily.</p>
+            <p><b>Round ligament pain</b></p>
+            <p>On either side of your uterus, you have two ligaments that stretch and thicken to accommodate your growing belly. These changes may cause round ligament pain. It can feel like a short, stabbing pain in response to movement, or a dull ache after an especially active day. If round ligament pain strikes, try to stop and rest, pay attention to your posture, change positions, gently massage the area, or take a warm bath. Some women find that wearing a maternity belt for extra support helps relieve the pain.</p>
+            <p><b>Increased appetite</b></p>
+            <p>Pregnancy hunger starts and peaks in the second trimester. Your body is working hard to support your baby, and that requires plenty of energy. Your meals are also fueling your body's pregnancy changes – which include a much higher blood volume, your growing breasts and uterus, and increased fat stores. You need an extra 300 to 350 calories per day in the second trimester. If you're wondering how it all fits together, learn about planning healthy pregnancy meals</p>
+            
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 14 weeks pregnant</h1>
+            <p><b>Get your teeth cleaned</b></p>
+            <p>Not only is it safe to go to the dentist during pregnancy, it's highly recommended. Pregnant women are susceptible to inflammation of the gums, which can lead to periodontal disease. Be sure to tell your dentist and dental hygienist that you're expecting before you have your cleaning.</p>
+            <p><b>Find a prenatal exercise class</b></p>
+            <p>If your energy is back, take advantage of it and get moving. Pregnancy exercise can boost your mood, help you sleep better, lower your risk of pregnancy complications, reduce stress and physical discomfort, and even help prepare you for childbirth. If you have trouble motivating to exercise on your own, try joining a class like prenatal yoga or water exercise. Prenatal exercise classes are also a great way to meet other expecting moms.</p>
+            <p><b>Brainstorm baby names</b></p>
+            <p>Whether you've had a secret name picked out since high school or haven't thought much about it at all, it's not too early to start pondering baby names. Look up baby name meanings, history, and popularity in our Baby Names Finder. You can also look at our baby name inspiration lists and see the top baby names for every year from 1880 to the present</p>
+            <p><b>Get better sleep</b></p>
+            <p>There are plenty of reasons why it's hard to sleep well when you're pregnant, but there are plenty of remedies to try, too. Cut down on caffeine (which you'll need to do during pregnancy anyway), try relaxation techniques, and experiment with the right pregnancy pillow. Establish a bedtime routine and try some warm milk and a light snack before bed. If nothing seems to help, ask your provider about safe sleep medications during pregnancy. One caution: Though they may seem more natural and harmless than prescription drugs, herbal and hormonal sleep remedies like melatonin aren't necessarily safe during pregnancy.</p>
+            <p><b>Invest in a good moisturizer</b></p>
+            <p>Slathering on lotion and creams may not prevent stretch marks, but this will reduce itchiness. Find out more about stretch marks and itchy skin during pregnancy.</p>
+            <p><b>Ask for support at work</b></p>
+            <p>Working while pregnant isn't always easy. If your job is strenuous, you're around harmful chemicals, or you have certain pregnancy complications, you might have to modify your tasks or stop working. (There are laws in place that protect you from discrimination because of pregnancy, and you may be able to receive disability benefits.) If you're doing very physical work – on your feet for hours at a time or doing heavy lifting – talk with your doctor or midwife, then approach your supervisor about making adjustments.</p>
+            <p><b></b></p>
+            <p></p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1 style="text-align: center;">14 weeks pregnant bellies</h1>
+            <p>There's no right or wrong when it comes to pregnant bellies and how they appear. Some women worry that their baby bump is too small, while others are concerned that they look more pregnant than they really are. A lot of this can be driven by comments from friends, family members, and even strangers – many people think a pregnant woman's body is an open topic of conversation. You may hear "You don't even look pregnant!" or "Wow, are you due soon?" Try not to take it to heart. As long as your healthcare provider says your baby is developing well and you're having a healthy pregnancy, it's all good.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

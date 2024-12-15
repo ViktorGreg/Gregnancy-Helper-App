@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">17th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Your baby can hear you</b></p>
+            <p>Between 16 and 22 weeks, your baby will start to hear sounds inside your body, including the noises made by your heartbeat, breathing, and digestion.</p>
+            <p><b>Better sleep</b></p>
+            <p>Resting easier in the second trimester? Enjoy it – and switch to sleeping on your side soon if you haven't already. Side sleeping places the least pressure on your veins and internal organs, ensuring the best blood flow to the uterus. That means your baby will get maximum nutrients and oxygen.</p>
+            <p><b>Maternity pictures</b></p>
+            <p>Make sure to capture photos of your beautiful pregnant self. Whether you have a professional photographer, a friend, or your partner take photos, here are some great maternity picture ideas</p>
+            
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1>Baby development at 17 weeks</h1>
+            <p><b>Your baby's bones</b></p>
+            <p>Your baby's skeleton is changing from soft cartilage to bone. Support your baby's bone health (and your own) by eating calcium-rich foods. Getting enough calcium also reduces your risk of hypertension and preeclampsia.</p>
+            <p><b>The umbilical cord</b></p>
+            <p>The umbilical cord – your baby's lifeline to the placenta – is growing stronger and thicker. By the end of pregnancy, it will be approximately 9 inches long and an inch thick. The umbilical cord delivers nutrients to your baby and ferries away waste products.</p>
+            
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1>Pregnancy symptoms during week 17</h1>
+            <p><b>Dizziness</b></p>
+            <p>Feeling a little lightheaded or like the room is spinning? This is a common symptom during the second trimester and is most likely due to normal pregnancy-related cardiovascular changes (a higher heart rate, bigger blood vessels to accommodate an increased blood volume, and temporary changes in circulation). Here's how to handle feeling dizzy during pregnancy</p>
+            <p><b>Vision changes</b></p>
+            <p>You may notice your vision seems blurrier and your eyes are drier. Strange though this seems, vision changes are common during pregnancy. Pregnancy changes in hormones, metabolism, fluid retention, and blood circulation can all affect your eyes and eyesight. These changes are usually minor and will go away after you have your baby. Sometimes vision changes can be caused by a more serious condition, though, so talk to your doctor or midwife if you have blurry vision, double vision, temporary loss of vision, or anything else unusual.</p>
+            <p><b>Itchy skin</b></p>
+            <p>Mild itching is a normal pregnancy skin problem. You may feel it especially around your breasts and belly where the skin is stretching a lot. Sometimes eczema worsens during pregnancy, also making for itchiness. For relief, try applying an ice pack or a cold compress to the itchy area, moisturize using fragrance-free lotion (refrigerate the lotion first for extra cooling), or take a warm oatmeal bath. Be sure to call your healthcare provider if you're very itchy or if you develop a new rash.</p>
+            <p><b>Stretch marks</b></p>
+            <p>Try not to worry if little indented lines crop up on your breasts, belly, or behind – many women get stretch marks during pregnancy, and they tend to fade postpartum. Stretch marks are genetic, so they're more likely to show up on your skin if your mother or sister have them. You can apply a good lotion or stretch mark cream to relieve itchiness, and try to gain weight slowly and stick to the recommended amount of pregnancy weight gain to reduce your chances of getting stretch marks. But generally there's not much you can do to stop these badges of motherhood from appearing.</p>
+            <p><b>Weird dreams</b></p>
+            <p>Your pregnancy dreams may get extra strange, thanks to hormones and intense emotions. Vivid dreams, sex dreams, and nightmares are all normal. Reflecting on your dreams can give you information about your emotional state, and they may be interesting to look back on later. Write down your wildest dreams as soon as you wake up, before you forget them.</p>
+            <p><b>Constipation</b></p>
+            <p>Unfortunately, constipation during pregnancy tends to pop up a lot due to hormonal changes and your expanding uterus. Iron supplements and prenatal vitamins can add to the problem. To prevent and ease constipation, make sure to drink plenty of water, eat high-fiber foods, and exercise regularly. You can also talk to your provider about taking a stool softener or magnesium, and perhaps switching your prenatal vitamin to one with less iron.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1>Pregnancy checklist at 17 weeks pregnant</h1>
+            <p><b>Try some relaxation techniques</b></p>
+            <p>Deep breathing, guided imagery, prenatal yoga and massage, and progressive muscle relaxation can help you stay on an even keel and even sleep better. Try practicing these relaxation techniques now – they may be important tools to navigate early parenthood.</p>
+            <p><b>Learn the best way to buckle up</b></p>
+            <p>It's extra important to wear your seat belt during pregnancy – and to buckle up the right way. Secure the lap portion low under your belly and snug across your hip bones, and position the shoulder harness snugly between your breasts and off to the side of your belly. If you get in a car accident, even a fender bender, let your healthcare provider know right away.</p>
+            <p><b>Get meal planning help</b></p>
+            <p>Eating well during pregnancy is crucial to support your growing baby and get the nutrients you both need. But it's easy to feel overwhelmed by pregnancy nutrition advice and worry that your diet will never measure up. Don't worry: There are a few simple, online tools to help with pregnancy meal planning. You can also check out our list of the best foods for pregnancy and try these healthy pregnancy recipes.</p>
+            <p><b>Wear sunscreen</b></p>
+            <p>To avoid changes in skin pigmentation during pregnancy (called melasma or chloasma), be sure to wear sunscreen with SPF 30 or higher whenever you're outdoors, even on cloudy days. Sun exposure intensifies pigment changes, so you may also want to wear a wide-brimmed hat and avoid being in direct sunlight between the hours of 10 a.m. and 2 p.m. when the sun is strongest. See which pregnancy-safe sunscreens and other skin products are best to use.</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1>17 weeks pregnant bellies</h1>
+            <p>Has your bump finally popped? If so, make sure you're taking plenty of bump photos and you've announced your pregnancy before it gets too awkward. Some people will be fine with finding out over social media or through the grapevine, but your long-distance friends and relatives may want to hear from you directly.</p>
+            <p>As your belly grows, you may also want to be prepared to handle rude comments and belly-touchers. Try to never take anything personally: What someone says has more to do with them than you. To shut down unwanted belly pats or rubs, it's best to be concise and firm: "Please don't" or "No thank you" should do the trick.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

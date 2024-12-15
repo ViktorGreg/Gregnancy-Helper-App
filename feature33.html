@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Medicine</title>
+</head>
+<style>
+    body {
+    background-color: peachpuff;
+}
+.header_title {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu_bar {
+    background-color: #FFFED3;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.menu_bar ul li {
+    padding: 0 30px;
+    position: relative;
+}
+.menu_bar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.menu_bar ul li a:hover {
+    color: white;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    margin: 20px 0;
+}
+.header2{
+    margin: 40px;
+    font-size: 20px;
+}
+.header3{
+    margin: 40px;
+    font-size: 25px;
+}
+.container {
+    width: 700px;
+    max-width: 600px;
+    padding: 20px;
+    background: #fefefe;
+    border: 5px solid #d58cdc;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjust to center */
+}
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.icon.green {
+    background-color: green;
+}
+.icon.red {
+    background-color: red;
+}
+</style>
+<body>
+    <div class="menu_bar">
+        <h1 class="header_title">Pregnancy Helper App</h1>
+        <ul>
+            <li><a href="#"><u>Home</u></a></li>
+            <li><a href="#"><u>About us</u></a></li>
+            <li><a href="#"><u>Help</u></a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <div class="header2">
+            <h2> <p><b>Is taking medicine bad? </b></p></h2>
+            <p>Not all medicines are bad during pregnancy. Some are necessary for the health of the mother and baby,
+               <br> 
+               while others can pose risks, but, Some medications can harm fetal development,
+               leading to complications or 
+               
+               <br>
+               birth defects. It's essential to consult with a healthcare provider 
+               about which medicines are safe.</p>
+
+            <h2> <p><b>Why is it important to take medicine when pregnant?</b></p></h2>
+            <p>Certain conditions, like high blood pressure or diabetes,
+               may require medication to manage health risks.
+               <br> 
+               Ensuring the mother's health is crucialfor the baby's 
+               well-being, as untreated conditions can lead to more significant issues.</p>
+        </div> 
+    </div>
+
+    <div class="container">
+        <div class="message">
+            <div class="icon green"></div>
+            <p>
+                This medicine is recommended to consume since these foods help develop 
+                the overall growth of the infant.
+            </p>
+        </div>
+        <div class="message">
+            <div class="icon red"></div>
+            <p>
+                This medicine is not safe to consume. These kinds of medicines affect 
+                the overall growth of the infant and can cause severe symptoms, which 
+                harm the infant's well-being and physical appearance.
+            </p>
+        </div>
+    </div>
+
+ <div class="icon green">
+        <div class="SafeP">
+            <P>Safe</P>
+        </div>
+    </div>
+
+</body>
+</html>

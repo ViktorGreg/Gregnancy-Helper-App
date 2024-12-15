@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">19th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Rainbow babies</b></p>
+            <p>If you're pregnant after a loss, you may struggle with mixed emotions like worry, excitement, fear, and joy. Here are ways to honor your experience and celebrate your rainbow baby.</p>
+            <p><b>Baby shower planning</b></p>
+            <p>Having a baby shower or baby sprinkle? It's not too early to talk to the host about the theme and whom to invite.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1>Baby development at 19 weeks</h1>
+            <p><b>Fingerprints</b></p>
+            <p>The skin on your baby's fingers and toes has formed distinct patterns. These fingerprints (and toeprints) are now permanent and unique – even among identical twins!</p>
+            <p><b>Your baby's senses</b></p>
+            <p>Your baby's sensory development is exploding. Their brain is designating specialized areas for smell, taste, hearing, vision, and touch.</p>
+            <p><b>Vernix caseosa</b></p>
+            <p>A white, waxy coating called vernix caseosa is forming on your baby's skin. Vernix has many benefits: It protects and moisturizes your baby's skin, protects against harmful bacteria, and helps the lungs and digestive tract develop.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1>Pregnancy symptoms during week 19</h1>
+            <p><b>Round ligament pain</b></p>
+            <p>As your uterus grows, the ligaments that connect it to your pelvis stretch and thicken. This can cause a sharp, stabbing pain called round ligament pain. The sensation may feel like it starts deep inside your groin and moves upward and outward on either side to the top of your hips. If round ligament pain strikes, stop and rest if you can, and avoid movements or positions that trigger it. Round ligament pain is brief, and should ease quickly.</p>
+            <p><b>Abdominal pain</b></p>
+            <p>If you're having abdominal cramping and it doesn't go away with rest, call your doctor or midwife. Also call if the cramping causes severe pain, or is accompanied by another symptom like fever or dizziness. Another warning sign: You have pain in the upper abdomen, or your abdomen is unusually sensitive to touch, especially when pressure is released (this could signal an abdominal infection).</p>
+            <p><b>Skin changes</b></p>
+            <p>Are the palms of your hands red? It's from extra estrogen. You may also have patches of darkened skin on your upper lip, cheeks, and forehead – that's called melasma, or the "mask of pregnancy." Pregnancy hormones act on the cells that contain melanin, which can also lead to darkening of your nipples, freckles, scars, underarms, inner thighs, and vulva. Also, you'll probably see a darkened line running from your belly button to your pubic bone – that's the linea nigra, or "dark line." All these changes in pigmentation should fade after pregnancy.</p>
+            <p><b>Nosebleeds</b></p>
+            <p>One in five pregnant women have nosebleeds. Due to increased blood volume, pregnancy causes the blood vessels in your nose to expand, which makes them break and bleed more often. This is more likely to happen if you have a cold or allergies, or you're in particularly dry air. If you get a bloody nose during pregnancy, sit down and lean forward while keeping your head higher than your heart. Pinch the lower part of your nose with your thumb and index finger for 10 to 15 minutes, breathing through your mouth. You can also apply cold to the bridge of your nose to constrict the blood vessels and slow the bleeding.</p>
+            <p><b>Shortness of breath</b></p>
+            <p>Feeling out of breath lately? You're not imagining it – you need more oxygen during pregnancy, and your body adapts by inhaling and exhaling more air with each breath. Plus, later in pregnancy your breathing might feel more labored as your growing uterus puts pressure on your diaphragm. If you're feeling breathless, pause and rest. But if your shortness of breath is sudden or severe, or you have other troubling symptoms like a rapid or irregular heartbeat, call your provider. If you can't reach them, call 911 or go to the ER.</p>
+            
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1>Pregnancy checklist at 19 weeks pregnant</h1>
+            <p><b>Embrace your pregnancy body type</b></p>
+            <p>It's possible to find cute maternity clothes that flatter your body type whether you're petite, curvy, or carrying high or low. The most important style tip of all: Make sure you feel comfortable and confident.</p>
+            <p><b>Think about childcare</b></p>
+            <p>It's smart to look into childcare options now if you'll need regular care for your baby. Ask local parent friends for recommendations and search online. If you live in an area where daycare centers are in high demand, go on a few tours and put your name on waiting lists. Keep in mind that it can take time to find a good fit. You'll probably see other expecting parents on your tours!</p>
+            <p><b>Plan something fun</b></p>
+            <p>Take a moment to enjoy this baby-free time. Some ideas: Buy tickets for a performance or live music, go to a late-night movie, wait in line at your favorite Sunday-morning breakfast place, or take a day trip nearby. Or, go big and plan a babymoon</p>
+            <p><b>Improve your sleep</b></p>
+            <p>It doesn't matter how determined you are to rest up before your baby comes, your body has other plans. Whether you constantly need to pee, feel anxious, can't get comfortable in bed, wake up hungry, or have heartburn, leg cramps, or just plain insomnia – getting enough sleep during pregnancy can be a struggle. But that doesn't mean you shouldn't try! There are plenty of things you can do to sleep better tonight, from changing what and when you eat or drink to practicing good sleep hygiene and having the right pillow. Read the basics of getting a good night's sleep during pregnancy, and don't hesitate to ask your doctor or midwife for tailored advice.</p>
+            <p><b>Connect with other parents</b></p>
+            <p>People in the same stage of parenting can be a lifeline. Find a group of non-judgmental parents, whether that's an in-person mom's group, a prenatal yoga class, or an online group in the BabyCenter Community. Check out your birth club (where all members are due in the same month) or browse our groups by topic. Start building relationships with other parents and parent-to-be now so you'll have some solid connections by the time your baby arrives</p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1>19 weeks pregnant bellies</h1>
+            <p>Sometimes, expecting moms worry they look more pregnant or less pregnant than they really are. But there's no set formula for how and when you start to show. As long as your healthcare provider says your baby is developing well and you're on track with weight gain, there's no reason to worry.</p>
+            <p>There are many reasons why you may have a bigger baby bump at 19 weeks:</p>
+            <ul>
+                <li><p>It isn't your first pregnancy. Women expecting their second or subsequent child may start to show earlier, because their muscles have been stretched by a previous pregnancy.</p></li>
+                <li><p>You're short. Short women or women with shorter torsos may show earlier or have a larger-looking bump, because they have less space for the baby to fill, lengthwise.</p></li>
+                <li><p>Your baby is positioned in your uterus in a way that maximizes your bump.</p></li>
+                <li><p>You're having twins or multiples.</p></li>
+                <li><p>You've gained extra weight during pregnancy.</p></li>
+            </ul>
+            <p>And reasons you may have a smaller baby bump:</p>
+            <ul>
+                <li><p>It's your first pregnancy</p></li>
+                <li><p>You're tall. Tall women or women who have long torsos may have a smaller-looking bump, because they have more space for the baby to fill, lengthwise.</p></li>
+                <li><p>Your baby is positioned in your uterus in a way that minimizes your bump.</p></li>
+                <li><p>You have strong core muscles. Women with stronger cores tend to show later.</p></li>
+                <li><p>You're plus-size. It may take longer for a true baby bump to appear.</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

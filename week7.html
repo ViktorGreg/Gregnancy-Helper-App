@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">7th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Your baby takes shape</b></p>
+            <p>Your baby's little features – eyes, nose, mouth, and ears – are starting to look more defined. Arm and leg buds are growing longer.</p>
+            <p><b>Testing decisions</b></p>
+            <p>First trimester prenatal testing options include the NIPT blood test, the NT ultrasound, and CVS. If you’re having trouble deciding which tests are right for you, talk to your healthcare provider and other people you trust.</p>
+            <p><b>Foods to skip</b></p>
+            <p>Some foods to avoid now : Swordfish, cold deli meats, raw oysters, homemade cookie dough, bean sprouts, extra-large coffees, unpasteurized juices, and queso fresco.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 7 weeks</h1>
+            <p><b>Your baby's eyes</b></p>
+            <p>The main parts of the eye that allow your baby to see – the cornea, iris, pupil, lens, and retina – start developing this week, and they're almost fully formed just a few weeks later.</p>
+            <p><b>Your baby's digestive system</b></p>
+            <p>Your baby's stomach and esophagus start to form. The esophagus is the tube that moves food from your baby's mouth to the stomach</p>
+            <p>Your baby's liver and pancreas are also starting to develop this week.</p>
+            <p><b>Brain development</b></p>
+            <p>The neural tube that becomes your baby's spinal column and brain has formed and closed on both ends, with your baby's brain at the top. It's now made up of three areas (forebrain, midbrain, and hindbrain). Amazingly, your baby's brain gains 250,000 cells per minute, on average, throughout the course of pregnancy.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 7</h1>
+            <p><b>Pregnancy symptoms to watch out for</b></p>
+            <p>Your body changes so rapidly during pregnancy that it's hard to know whether a new ache or symptom is "normal," or if you should call your healthcare provider or even head to the emergency room. Check out our rundown of symptoms you should never ignore. And remember the bottom line: If you're worried, trust your instincts and get help.</p>
+            <p><b>Heightened sense of smell</b></p>
+            <p>Many newly pregnant women find that they're overwhelmed by gag-inducing smells. This may be a side effect of rapidly increasing levels of estrogen in your system. You may even discover that your partner, pet, or home smells unappealing now. But take heart, this heightened sense of smell is temporary, and will likely fade after early pregnancy.</p>
+            <p><b>Food aversions</b></p>
+            <p>You may suddenly find that certain foods you used to enjoy are now completely repulsive to you. Food aversions are another side effect of rapidly increasing estrogen levels. They often start during the first trimester and go away by the second, though it's possible that your appetite could be out of whack until your baby is born.</p>
+            <p><b>Frequent urge to pee</b></p>
+            <p>Needing to pee more often is one of the most common early signs of pregnancy. At this stage it's likely caused by hormonal changes that make your blood flow to your kidneys more quickly, filling your bladder more often.</p>
+            <p><b>Mood swings</b></p>
+            <p>Many pregnant women find that moodiness flares up around 6 to 10 weeks. Ricocheting emotions are likely caused by stress, fatigue, and hormonal changes. There's also the range of feelings you may have about becoming a parent.</p>
+            <p><b>Excessive saliva</b></p>
+            <p>You're not imagining it – it's normal to have more saliva when you're pregnant. You may be producing more or swallowing less – or a combination of the two. Hormonal changes, nausea, and heartburn can all cause you to salivate more during pregnancy. To cope, try brushing your teeth more often, eat small and balanced meals, and drink plenty of water. Also, sucking on hard candy or chewing gum may help you swallow.</p>
+            <p><b>ConstipationUp to half of women experience constipation at some point during pregnancy. This happens because pregnancy hormones relax smooth muscles in the body, which means food moves through your system more slowly. You can combat constipation by eating high-fiber foods (like whole grains, fruits, vegetables, and legumes), drinking plenty of water, exercising, trying a different prenatal vitamin, and always going to the bathroom when you feel the urge.</b></p>
+            <p>Up to half of women experience constipation at some point during pregnancy. This happens because pregnancy hormones relax smooth muscles in the body, which means food moves through your system more slowly. You can combat constipation by eating high-fiber foods (like whole grains, fruits, vegetables, and legumes), drinking plenty of water, exercising, trying a different prenatal vitamin, and always going to the bathroom when you feel the uHeartburnrge.</p>
+            <p><b>Heartburn</b></p>
+            <p>Heartburn (also known as acid indigestion or acid reflux) is a burning sensation between the lower throat and the bottom of the breastbone. It's very uncomfortable and unfortunately unavoidable for some expecting moms. There are a number of things you can do to reduce heartburn: avoid food and drinks that upset your stomach, eat smaller meals, drink water in between meals instead of with them, chew gum, sleep propped up, and don't eat within two or three hours of bedtime</p>
+            <p><b>Food aversions</b></p>
+            <p>You may suddenly find that certain foods you used to enjoy are now completely repulsive to you. Food aversions are another side effect of rapidly increasing estrogen levels. They often start during the first trimester and go away by the second, though it's possible that your appetite could be out of whack until your baby is born.</p>
+            <p><b>Frequent urge to pee</b></p>
+            <p>Needing to pee more often is one of the most common early signs of pregnancy. At this stage it's likely caused by hormonal changes that make your blood flow to your kidneys more quickly, filling your bladder more often.</p>
+            <p><b>Mood swings</b></p>
+            <p>Many pregnant women find that moodiness flares up around 6 to 10 weeks. Ricocheting emotions are likely caused by stress, fatigue, and hormonal changes. There's also the range of feelings you may have about becoming a parent.</p>
+            <p><b>Excessive saliva</b></p>
+            <p>You're not imagining it – it's normal to have more saliva when you're pregnant. You may be producing more or swallowing less – or a combination of the two. Hormonal changes, nausea, and heartburn can all cause you to salivate more during pregnancy. To cope, try brushing your teeth more often, eat small and balanced meals, and drink plenty of water. Also, sucking on hard candy or chewing gum may help you swallow.</p>
+            <p><b>Constipation</b></p>
+            <p>Up to half of women experience constipation at some point during pregnancy. This happens because pregnancy hormones relax smooth muscles in the body, which means food moves through your system more slowly. You can combat constipation by eating high-fiber foods (like whole grains, fruits, vegetables, and legumes), drinking plenty of water, exercising, trying a different prenatal vitamin, and always going to the bathroom when you feel the urge.</p>
+            <p><b>Heartburn</b></p>
+            <p>Heartburn (also known as acid indigestion or acid reflux) is a burning sensation between the lower throat and the bottom of the breastbone. It's very uncomfortable and unfortunately unavoidable for some expecting moms. There are a number of things you can do to reduce heartburn: avoid food and drinks that upset your stomach, eat smaller meals, drink water in between meals instead of with them, chew gum, sleep propped up, and don't eat within two or three hours of bedtime</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content5">
+            <h1>Pregnancy Checklist at 7 weeks pregnant</h1>
+            <p><b>Do your best to eat well</b></p>
+            <p>Don't worry if you can't eat a well-rounded diet in your first trimester – nausea can make this impossible. Just do the best you can to eat well. Learn how to plan healthy meals while expecting, and check out these 15 delicious and nutritious recipes. Also keep in mind the 12 best foods for pregnancy: eggs, salmon, beans, sweet potatoes, whole grains, walnuts, greek yogurt, broccoli and dark leafy greens, lean meats and poultry, colorful fruits and veggies, avocadoes, and dried fruit.</p>
+            <p><b>Connect with your partner</b></p>
+            <p>Though you're carrying the weight (literally) of having a baby, there are many ways your partner can share in your pregnancy. The more bonding you do before the baby comes, the better equipped you'll be to handle the challenges of caring for a newborn together. Make time for date nights, talk about parenting, and share your hopes and dreams for the future.</p>
+            <p><b>Decide when to announce your pregnancy</b></p>
+            <p>Some expecting moms wait until after the first trimester, when the risk of miscarriage drops, while others announce it right away. Some wait to tell their co-workers or boss to avoid being treated differently at work, while others want their workplace buds to understand why they're a little green around the gills. Also consider how you'll make the news public – and get creative inspiration from other parents.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content6">
+            <h1>7 weeks pregnant bellies</h1>
+            <p>Your belly may still look basically the same (especially hidden under loose clothing). Your growing breasts, on the other hand, may be telling a different story. Starting around now, you may notice your breasts getting noticeably bigger, and they'll continue to grow throughout your pregnancy. It's common to go up a cup size or two, especially if it's your first baby. Your breasts may feel itchy as the skin stretches, and you may develop stretch marks on them.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

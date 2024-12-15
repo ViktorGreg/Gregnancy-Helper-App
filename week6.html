@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">6th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Hearing your baby's heartbeat</b></p>
+            <p>Your baby's heart isn't fully developed, but cells in the heart tube have started beating fast, around 160 times a minute. You may hear the sound this week if you have an early ultrasound.</p>
+            <p><b>Morning sickness relief</b></p>
+            <p>It's counterintuitive, but eating small meals throughout the day can help you keep nausea at bay. Snacking on bland foods, drinking ginger tea, and taking certain medications can also relieve morning sickness.</p>
+            <p><b>Is bleeding normal?</b></p>
+            <p>One in four women have some bleeding during this trimester. If you do, call your healthcare provider and get it checked out. Spotting or light bleeding is probably from something minor, but it could also be a sign of a serious problem, such as an ectopic pregnancy, a miscarriage, or problems with the placenta.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 6 weeks</h1>
+            <p><b>Heartbeat</b></p>
+            <p>There's cardiac activity in your baby's developing heart. You'll see the cells flickering if you have a vaginal ultrasound in the next few weeks. Starting at 10 to 12 weeks, your provider will listen to your baby's heartbeat at every prenatal appointment using a handheld Doppler.</p>
+            <p><b>Eyes, nose, mouth, and ears</b></p>
+            <p>There are dark spots where your baby's eyes and nostrils are starting to form. Emerging ears are marked by small depressions on the sides of the head. Inside their tiny mouth, the tongue and vocal cords are beginning to develop.</p>
+            <p><b>Arms and legs</b></p>
+            <p>Your baby's arms and legs begin as tiny paddles that will lengthen and grow into limbs. The backbone extends into a small tail that will disappear within a few weeks.</p>
+            
+        </div>
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 6</h1>
+            <p><b>Morning sickness</b></p>
+            <p>Morning sickness is nausea that can strike at any time of day. It usually starts around 5 or 6 weeks of pregnancy and is likely to ease up by the end of the first trimester.</p>
+            <p><b>Frequent urge to pee</b></p>
+            <p>Needing to pee more often is among the most common early signs of pregnancy. During pregnancy a lot more blood is flowing through your body, which means your kidneys have extra fluids to process. (Pregnancy hormones play a role in this, too.) Regardless, keep drinking enough water. You can tell you're well hydrated if your urine is pale yellow or colorless.</p>
+            <p><b>Mood swings</b></p>
+            <p>Many pregnant women find that moodiness flares up around 6 to 10 weeks. Ricocheting emotions are likely caused by stress, fatigue, and hormonal changes. And, of course, there's also the range of feelings you may have about becoming a parent. If you're feeling particularly bad, check for depression using our prenatal depression quiz and talk to your healthcare provider.</p>
+            <p><b>Tender, swollen breasts</b></p>
+            <p>Breast tenderness can be one of the earliest symptoms of pregnancy. Increased hormone levels boost blood flow, which may make your breasts feel swollen, sore, tingly, and unusually sensitive to touch.</p>
+            <p><b>Fatigue</b></p>
+            <p>For many women, exhaustion is among the first signs of pregnancy. No one knows for sure what causes fatigue in early pregnancy, but it's possible that hormonal changes – like the dramatic rise in progesterone – are at least partly responsible.</p>
+            <p><b>Metallic taste</b></p>
+            <p>You may notice a metallic taste in your mouth during the first trimester thanks to a surge in estrogen. You can cope with the copper taste by brushing and flossing frequently, gargling with one teaspoon salt or 1/4 teaspoon baking soda in 8 ounces of water, eating tart or acidic foods, or chewing mint gum.</p>
+            <p><b>Strange dreams</b></p>
+            <p>With your life changing rapidly, your subconscious is trying to keep up, which means processing your pregnancy in dreamland. Some dream images consistently appear in certain stages of pregnancy. First-trimester pregnancy dreams typically work through anxiety about your changing body, birth, and motherhood.</p>
+            <p><b>Headaches</b></p>
+            <p>It's common to get headaches during pregnancy, especially in the first trimester. Once you reach the second trimester, headaches may diminish or disappear. Until then, try to identify your headache triggers (like nitrates, MSG, artificial sweeteners, or tobacco smoke) and avoid them. Getting enough sleep, food and water, and exercise can prevent headaches, and relaxation techniques like massage and meditation may help. You can take acetaminophen to relieve headaches during pregnancy, but aspirin, ibuprofen, and some prescription migraine drugs aren't recommended unless approved by your healthcare provider.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 6 weeks pregnant</h1>
+            <p><b>Prepare for your first prenatal visit</b></p>
+            <p>Is your first prenatal visit coming up soon? It can be a momentous occasion: You'll talk to your doctor or midwife about your pregnancy, and you may have an ultrasound and see your baby's tiny heart beating! Be prepared to discuss your health history, your family's medical history, and your habits. If you haven't yet chosen a doctor or midwife to care for you during your pregnancy, go ahead and find someone so you can get started on your prenatal care. You can always switch to another caregiver later if you want.</p>
+            <p><b>Research foods to avoid during pregnancy</b></p>
+            <p>During pregnancy, it's wise to skip some foods completely (we're looking at you, deli egg salad). But many other foods that are otherwise unsafe for pregnancy are actually fine if you take a few precautions, like cooking them thoroughly. Find out what's safe to eat and drink during pregnancy and what to avoid.</p>
+            <p><b>Learn about prenatal testing options</b></p>
+            <p>Screening tests use blood samples and ultrasound to help assess your baby's chances of having Down syndrome or other chromosomal differences. The screenings are non-invasive and don't pose any risk to you or your baby. The results can help you decide whether to have chorionic villus sampling (CVS) or amniocentesis to find out for sure about a potential condition.</p>
+            <p><b>Make sure your workplace is safe</b></p>
+            <p>Some jobs or hobbies can be hazardous to you and your developing baby. If you're routinely exposed to chemicals, heavy metals (like lead or mercury), certain biological agents, or radiation, you'll need to tell your boss you're pregnant and make some changes as soon as possible.</p>
+            <p><b>Try to reduce stress</b></p>
+            <p>High levels of chronic stress aren't good for you or your baby. Try to stress less during pregnancy by surrounding yourself with positive people, taking breaks and deep breaths, and blowing off steam by exercising, listening to music, or journaling.</p>
+            <p><b>Start your pregnancy to-do list</b></p>
+            <p>If you're not sure where to start, check out our ultimate first-trimester pregnancy to-do list. It covers everything you may need or want to tackle now, from investigating health insurance to thinking about baby names.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

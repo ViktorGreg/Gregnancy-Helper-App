@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">25th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Safe pregnancy exercise</b></p>
+            <p>Most women can keep exercising throughout pregnancy – and exercise has lots of benefits. But as your body changes, you'll need to modify your workouts.</p>
+            <p><b>Belly button popping out?</b></p>
+            <p>Is your innie looking more like an outie now that you're creeping up on your third trimester? Don't worry: Usually pregnancy belly button changes are temporary.</p>
+            <p><b>Staying hydrated</b></p>
+            <p>You've probably heard it a thousand times by now, but it's true – staying hydrated during pregnancy is important. Try to drink about 10 glasses of water a day.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 25 weeks</h1>
+            <p><b>Gaining baby fat</b></p>
+            <p>Your baby will soon exchange that long, lean look for some baby fat. Wrinkled skin will begin to smooth out, and they'll start to look more and more like a newborn.</p>
+            <p><b>Your baby's hair</b></p>
+            <p>Your baby is growing more hair – and if you could see it, you'd be able to discern its color and texture.</p>
+            <p><b>Sleeping like a baby</b></p>
+            <p>Your baby spends most of their time sleeping, and cycles between rapid eye movement (REM) sleep and non-REM sleep every 20 to 40 minutes.</p>
+            
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 25</h1>
+            <p><b>Thicker hair</b></p>
+            <p>Your hair may look fuller and more lustrous than ever. It's not that you're growing more hair, but thanks to hormonal changes the hair that you'd normally shed is sticking around longer than usual. Sadly, this extra hair will fall out after you give birth.</p>
+            <p><b>SPD</b></p>
+            <p>Also called pelvic girdle pain, pubic symphysis dysfunction (SPD) can strike as your body prepares to give birth. The ligaments surrounding joints in your pelvic area become more relaxed and flexible – and may stretch too far or allow pelvic bones to move too easily. This change, coupled with the increasing size of your baby, could cause serious discomfort and even limit your mobility. If you're having any kind of pelvic pain, talk to your healthcare provider about treatments. You'll want to avoid any activities that hurt, spend time off your feet, and try a pelvic support belt or girdle.</p>
+            <p><b>Itching</b></p>
+            <p>Your growing breasts and belly stretch your skin, which makes you itch. Moderate itching during pregnancy is uncomfortable, but it isn't dangerous or concerning. You can cope with itching by taking oatmeal baths, applying lotion, and sticking with soft, loose-fitting clothing. However, if your itching becomes severe or comes with a new rash, let your doctor or midwife know. This could signal a problem – for example, a serious pregnancy complication called cholestasis can trigger intense itching, usually late in pregnancy.</p>
+            <p><b>Insomnia</b></p>
+            <p>Though everyone may be telling you to get rest while you can, falling and staying asleep often becomes a challenge as you draw nearer to your due date. It's hard to get comfortable at night as your belly gets bigger, and the growing pressure on your bladder may wake you, again and again, to pee in the middle of the night. Though pregnancy insomnia can be hard to overcome, try these tricks to get better pregnancy sleep. Progressive muscle relaxation, guided imagery, and other strategies can help you relax and quiet anxious thoughts.</p>
+            <p><b>Dizziness</b></p>
+            <p>During pregnancy, your cardiovascular system is working harder than ever. The volume of blood in your body has increased by as much as 50 percent, and your heart rate is faster. Each minute, your heart pumps more blood than it did before you were pregnant. Because of this, you might experience dizziness when you stand up as well as lightheadedness from time to time. (In late pregnancy, your growing uterus also puts pressure on your veins and slows circulation.) To prevent dizziness, make sure you're eating and drinking enough, don't lie flat on your back, stand up slowly, avoid overheating, and don't overdo it when you exercise.</p>
+            <p><b>Gas and bloating</b></p>
+            <p>If your gas and bloating have become especially bothersome or embarrassing, consider keeping track of what you're eating for a few days and taking note of when your symptoms are the worst. Getting relief could be as simple as temporarily eliminating a few things from your diet. (Dairy products, broccoli, cabbage, whole grains, beans, and fried, fatty foods are common gas-causing culprits.) If that and other lifestyle changes don't help, ask your healthcare provider about a safe over-the-counter medicine for gas.</p>
+            
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 25 weeks</h1>
+            <p><b>Know the signs of a pregnancy problem</b></p>
+            <p>Pregnancy comes with plenty of aches, pains, and weird symptoms that are completely normal. But some pregnancy symptoms can signal a problem. Call your doctor or midwife if you have bleeding, spotting, or pain; if your baby seems less active; or if your water breaks. Other signs of a potential problem include intense itching, a serious headache, rapid weight gain, sudden swelling, painful urination, strange vaginal discharge, a fever, and shortness of breath. If you have any of these issues, call your doctor or midwife immediately.</p>
+            <p><b>Think about your baby's sleeping space</b></p>
+            <p>The American Academy of Pediatrics (AAP) recommends sharing a room (but not a bed) with your baby for the first 6 months or ideally for the first year. That means having your baby sleep in a crib, bassinet, or play yard set up in your room near your bed. Room sharing can cut the risk of SIDS by as much as half, according to the AAP. It also makes it easier for you to comfort, watch over, and feed your baby. In addition to a safe place for your baby to sleep, you'll want to have other nursery essentials like a changing table or changing pad, a baby monitor, a sound machine, and perhaps a glider or rocker to relax in while you feed your baby.</p>
+            <p><b>Do some financial planning</b></p>
+            <p>Becoming a parent means new financial responsibilities – and tasks like buying life and disability insurance, making a will, starting a college savings account for your child if possible, and figuring out how your baby will affect your tax status. If these to-do's seem daunting, get the ball rolling by finding out more about family finances for new parents.</p>
+            <p><b>Investigate maternity leave</b></p>
+            <p>If you plan to return to your current job after your baby's born, now's a good time to start working out the details of your maternity leave. Most companies are required to offer some form of unpaid, protected time off through the Family & Medical Leave Act (FMLA). (Though if you work for a private company with fewer than 50 employees, or you've been at your job for less than a year, you won't qualify.) Paid family leave isn't mandated in the United States, but it is offered by some companies.</p>
+            <p>To take maternity leave, most moms end up combining a mix of short-term disability (STD) benefits, vacation and personal days, and FMLA-protected unpaid time off. Consult your employee handbook or reach out to HR to get the details on whether you qualify for FMLA and how much unpaid time you can take off. Ask about additional benefits, like paid leave, so you can decide how long you can realistically afford to stay home with your new baby. And if you have a spouse or partner, explore whether they can take leave, too.</p>
+            <p><b>Get vaccinated</b></p>
+            <p>Some vaccines are very important – and recommended – during pregnancy to protect you and your baby. Get vaccinated and make sure you're up-to-date on the flu shot, the Tdap (tetanus-diphtheria-acellular pertussis) vaccine, and the COVID-19 vaccine or booster.</p>
+            <p>But some vaccines aren't safe during pregnancy: Avoid getting the MMR, chicken pox, and HPV vaccines when you're expecting. The first two are best avoided because they're made from a live, attenuated virus; and HPV hasn't been studied in pregnant women.</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1 style="text-align: center;">25 weeks pregnant bellies</h1>
+            <p>At this point in pregnancy, it may be time to invest in some new bras (again!). In the third trimester, many moms-to-be prefer to start wearing nursing bras. Even though you're not nursing yet, these bras are comfortable and have plenty of stretch.</p>
+            <p>If you buy a nursing bra while you're pregnant, though, make sure to allow some room for growth. You may go up another cup size during late pregnancy. After birth, when your milk first comes in, your breasts might grow another cup size (though once your milk supply stabilizes, they'll look more like they did in late pregnancy).</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

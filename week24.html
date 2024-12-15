@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">24th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Pregnancy glow</b></p>
+            <p>The pregnancy glow you've likely heard so much about isn't a myth. Changing hormones, above-average oil production, and increased blood flow can make your skin look flushed, shiny, and even radiant.</p>
+            <p><b>Unusual baby names</b></p>
+            <p>If you're not jazzed about the most popular baby names, check out these uncommon and unusual baby names – Golden, Zen, Ajax, Booker, and more.</p>
+            <p><b>Nesting</b></p>
+            <p>Feeling a strong urge to clean and organize your home? You're probably nesting. Preparing your "nest" for a new baby is an instinct common in humans and animals.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content3">
+            <h1>Baby development at 24 weeks</h1>
+            <p><b>Your baby's lungs</b></p>
+            <p>Respiratory sacs at the tips of the smallest branches of your baby's lungs are growing and multiplying, adding more surface area for the exchange of oxygen and carbon dioxide.</p>
+            <p><b>Gaining weight</b></p>
+            <p>Your baby cuts a pretty lean figure at this point, but their body is filling out proportionally, and soon they'll start to plump up. Their skin is still thin and translucent.</p>
+            <p><b>Raising an eyebrow</b></p>
+            <p>Tiny eyebrows grew on your baby's face just a few weeks ago. Now your baby may practice working their facial muscles and raising themTiny eyebrows grew on your baby's face just a few weeks ago. Now your baby may practice working their facial muscles and raising them.</p>
+            
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content4">
+            <h1>Pregnancy symptoms during week 24</h1>
+            <p><b>Rashes</b></p>
+            <p>If you're experiencing new skin symptoms, like itchiness, hyperpigmentation, raised bumps, or hives, check in with your doctor or midwife. Most rashes during pregnancy are related to allergies, contact dermatitis (contact with an irritant), or skin infections – they're not caused by pregnancy. But a few pregnancy conditions do cause rashes and intense itching: atopic eruption of pregnancy (AEP), pruritic urticarial papules and plaques of pregnancy (PUPPP), and pemphigoid gestationis.</p>
+            <p><b>Spotting</b></p>
+            <p>During the second trimester, some women experience spotting or light bleeding during pregnancy. This could be caused by changes to your cervix, inflammation, or a benign cervical polyp. Spotting during the second trimester is typically harmless. However, if you experience regular, heavier bleeding, seek medical attention right away.</p>
+            <p><b>Mood swings</b></p>
+            <p>Dramatic mood swings may have faded at 24 weeks pregnant – but it's perfectly normal to have them during the second trimester. Hormonal changes, stress, fatigue, discomfort, and exhaustion can all lead to heightened emotions. If your mood swings are becoming more frequent or more intense, or if they last longer than two weeks, talk to your provider and ask for a referral to a therapist. You may be battling depression during pregnancy or pregnancy anxiety.</p>
+            <p><b>Shortness of breath</b></p>
+            <p>Feeling short of breath is common during pregnancy. Pregnant women have an increased need for oxygen, and may feel breathless if their blood pressure is higher during pregnancy or if they have excess amniotic fluid. Changing hormones can also cause a feeling of breathlessness because of the effects progesterone has on your lungs and the respiratory center in your brain. While slight shortness of breath is normal during pregnancy, struggling to breathe, a persistent cough, and chest pain are all signals to seek immediate medical care.</p>
+            <p><b>Increased appetite</b></p>
+            <p>Noticing an increased appetite? In the second trimester, you may feel hungrier than ever before. It's only natural: You need more calories and nutrients now to support your growing baby and your changing body. During the second trimester, most pregnant women need around 350 additional calories each day. If you're concerned about gaining too much weight, focus on the quality of the food you're eating and choose healthy snacks. Foods with plenty of fiber, protein, healthy fats, and complex carbs will help you feel satisfied longer than packaged food and simple carbohydrates.</p>
+            <p><b>Melasma</b></p>
+            <p>Hormonal changes trigger an increase in melanin production during pregnancy. For some women, this will cause dark patches of skin called melasma. These splotches most often appear on the cheeks, forehead, upper lip, and forearms. Areas of your skin that are typically darker – like the areolas (area around your nipples) and labia – could appear darker during pregnancy, too. For most women, melasma goes away after birth. But to minimize it on your face and arms during pregnancy, use sunscreen with SPF 30 or higher every day or cover your skin with long sleeves and a hat.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content5">
+            <h1>Pregnancy checklist at 24 weeks</h1>
+            <p><b>Know the signs of preterm labor</b></p>
+            <p>Read up on signs of preterm labor, just in case. Call your doctor or midwife immediately if you have unusual discharge, vaginal bleeding, abdominal cramping, pelvic pressure, low back pain, or leaking fluid (which could be amniotic fluid, meaning your water has broken). About 10 percent of babies in the United States are born prematurely. "Micropreemies" born at 24 weeks need lots of medical attention, but have a good chance of survival thanks to medical advances.</p>
+            <p><b>Get your home baby-ready</b></p>
+            <p>In addition to organizing, cleaning, and preparing your baby's space, think about safety – our babyproofing checklist is a good place to start. Since you've got a while before your little one is one the move, start with the basics.</p>
+            <p>Next, you can get started on babyproofing the areas where your baby will spend the most time. Secure window blind cords, cover outlets with protectors, and attach furniture and TVs to the walls so they can't tip over. Put locks on cabinets where you store items that could harm your baby (like cleaning products).</p>
+            <p><b>Consider cord blood banking</b></p>
+            <p>Cord blood banking involves collecting the blood left in your newborn's umbilical cord and placenta following birth and storing it for future medical use. If you want to collect and store your baby's cord blood at birth, or donate it, you'll need to make arrangements soon.</p>
+            <p><b>Get ready for your glucose screening</b></p>
+            <p>Your provider will probably schedule your glucose screening between 24 and 28 weeks. This routine test monitors for gestational diabetes, which affects an estimated 2 to 10 percent of pregnant women. During the screening, you'll be asked to drink a sugary drink (often described as being like flat, syrupy orange soda). After a short window of time, you'll have your blood drawn and tested for abnormal glucose levels. This initial screening isn't diagnostic. Instead, the results will indicate whether you need further testing for gestational diabetes.</p>
+            <p><b></b></p>
+            <p></p>
+            <p><b></b></p>
+            <p></p>
+            <p><b></b></p>
+            <p></p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content6">
+            <h1>24 weeks pregnant bellies</h1>
+            <p>Your uterus is now about the size of a soccer ball, and the top of your uterus has risen above your belly button!</p>
+            <p>During your second trimester, you can take care of your changing skin by making sure your skincare products are safe for pregnancy. Avoid retinols, and limit salicylic acid and alpha hydroxy acids in makeup and skincare products.</p>
+            <p>Ask your provider if you have any concerns about caring for your skin while you're expecting. As always, it's wise to wear pregnancy-safe sunscreen every day – even when you're not spending much time in the sun.</p>
+            <p>You might be noticing stretch marks on your stomach, thighs, and breasts now. Most of the time, you can't prevent these "badges of motherhood." However, they often fade with time.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">11th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>When you'll feel kicks</b></p>
+            <p>Your baby is busy somersaulting and stretching, but they're still too small for you to notice it. You probably won't feel your baby move until you're at least 16 weeks pregnant.</p>
+            <p><b>If you're starting to show</b></p>
+            <p>Create a time-lapse record of your pregnancy by documenting your growing bump every week. You can take selfies or ask your partner or a friend to take photos.</p>
+            <p><b>Sharing your news</b></p>
+            <p>If you haven't spilled the beans yet, start thinking about how you'll let family and friends know you're expecting. Pregnancy announcements range from a group text message to an elaborately staged photo or big reveal.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1>Baby development at 11 weeks</h1>
+            <p><b>Your baby's fingers and toes</b></p>
+            <p>Your baby's tiny fingers and toes have lost their webbing and are distinct – and longer.</p>
+            <p><b>Organs are working</b></p>
+            <p>As you reach the end of the first trimester, all your baby's vital organs are in place, and many have already started to function. The liver is making red blood cells, kidneys are making urine, and the pancreas starts making insulin. The four chambers of your baby's heart are fully formed, and your baby's heart is beatingAs you reach the end of the first trimester, all your baby's vital organs are in place, and many have already started to function. The liver is making red blood cells, kidneys are making urine, and the pancreas starts making insulin. The four chambers of your baby's heart are fully formed, and your baby's heart is beating.</p>
+            <p><b>Genitals are forming</b></p>
+            <p>By the end of this week, your baby's genitals will start developing. The external sex organs – the penis and scrotum in boys, the clitoris and labia in girls – don't start to differ from each other until about 11 weeks. And even then, it takes several more weeks to be able to easily see the difference between boys and girls on an ultrasound.</p>
+            
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1>Pregnancy symptoms during week 11</h1>
+            <p><b>Constipation and gas</b></p>
+            <p>Constipation, gas, and bloating are all common during pregnancy due partly to hormonal changes, which can slow digestion. To keep things moving, sip water throughout the day, eat high-fiber foods (like fresh fruits and vegetables), and exercise to keep things moving.</p>
+            <p><b>Heartburn</b></p>
+            <p>You may begin to feel heartburn (also called acid indigestion), a burning sensation that often extends from the bottom of your breastbone to your lower throat. Many women get heartburn for the first time during pregnancy or find that it gets worse. To reduce heartburn, don't lie down after you eat; avoid foods that are fatty, spicy, fried, or highly seasoned; eat smaller meals; and don't drink too many liquids with your meals.</p>
+            <p><b>Conflicting emotions</b></p>
+            <p>There's no way around it, your life changes profoundly when you have a baby. You may be excited for the changes, slightly nervous, or anxious – depending on the day. Be sure to prioritize rest, plan healthy meals, exercise safely, and share your feelings with someone you trust. By taking care of yourself, you're also taking care of your baby.</p>
+            <p><b>Fatigue</b></p>
+            <p>Pregnancy fatigue is probably still going strong. Hang in there, you may feel a big burst of energy soon when you get to your second trimester. Keep your strength up by eating nutritious pregnancy snacks, going to bed earlier, taking naps, and cutting out unnecessary tasks and commitments.</p>
+            <p><b>Vaginal discharge</b></p>
+            <p>Increased levels of estrogen might lead to more vaginal discharge in your underwear. Healthy discharge is clear to milky-white and mild-smelling. Call your doctor or midwife if your discharge has an unpleasant smell; causes pain or itching; or appears gray, yellow, or green.</p>
+            <p><b>Food aversions</b></p>
+            <p>Both food cravings and the opposite – food aversions – are common and normal during pregnancy. It's estimated that about 60 percent of pregnant women have food aversions, likely due to hormonal changes and a heightened sense of smell. It's possible that your appetite could be out of whack until your baby is born, but typically food aversions (like morning sickness) go away in the second trimester.</p>
+            <p><b>HeadachesHeadaches in the first trimester are often caused by hormonal changes, stress, congestion, allergies, lack of sleep, or dehydration. Some women have a migraine headache for the first time while pregnant, though many women who are prone to migraines find these actually improve during pregnancy. Exercising, watching out for headache triggers, and taking acetaminophen (with your healthcare provider's okay) are some safe ways to avoid and treat pregnancy headaches.</b></p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1>Pregnancy checklist at 11 weeks pregnant</h1>
+            <p><b>Learn about pregnancy weight gain</b></p>
+            <p>Don't worry if nausea has made it impossible for you to eat well or if you haven't put on much weight yet. If you start at a healthy weight, experts recommend gaining 1 to 5 pounds during the first trimester. Some women gain more than this in the first trimester, though – sometimes because they can only stomach less-healthy foods. If you're concerned, use our pregnancy weight gain calculator and talk to your doctor or midwife.</p>
+            <p><b>Build your support network</b></p>
+            <p>Moms and expecting moms can offer advice and a deep understanding of what you're going through. Reach out to moms you know and ask about their pregnancy experiences. You can meet expecting moms online in your BabyCenter Birth Club and in your community through prenatal yoga and parenting classes.</p>
+            <p><b>Plan a babymoon</b></p>
+            <p>A babymoon is a last-hurrah vacation you take during pregnancy. You may want to stay close at a hotel across town, or you might be itching to check off a bucket-list destination. Many expecting moms prefer to travel in their second trimester when they have the most energy. Read more about babymoon destination ideas, do's and don'ts, safety tips, and what to pack.</p>
+            <p><b>Save time at the doctor's office</b></p>
+            <p>You'll be going to a lot of prenatal appointments: They're typically every four weeks in the first and second trimesters, and even more often in the third trimester. One pro tip: Schedule your checkups for first thing in the morning or the first appointment after lunch. There's no backlog of patients to get through, so you're less likely to wait.</p>
+            <p><b>Eat calcium-rich foods</b></p>
+            <p>Getting enough calcium is crucial during pregnancy. Your baby needs calcium for strong bones, teeth, nerves, and muscles. If you don't get enough calcium in your diet during pregnancy, your baby will draw it from your bones! Plus, adequate calcium levels can reduce your risk of some serious pregnancy complications. Women 19 and older need 1000 mg of calcium a day. You'll get some from your prenatal vitamin, but it's important to also have calcium-rich foods like milk and other dairy products; canned fish; and calcium-fortified cereal, juice, soy milk, and bread. Talk to your provider about adding a calcium supplement if you don't think you're getting the recommended amount.</p>
+            <p><b>Take care of your skin</b></p>
+            <p>Though the "pregnancy glow," is real, it often doesn't kick in until later in pregnancy. And pregnancy also brings its fair share of skin issues. You may develop acne, varicose veins, melasma, rashes, itchy skin, or stretch marks. Some of these can't be avoided – but you can help your skin by drinking plenty of water, wearing sunscreen, and moisturizing frequently.</p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1>11 weeks pregnant bellies</h1>
+            <p>If you don't notice a bump yet, don't be concerned. Every woman and every baby bump is different, and there isn't an exact time when pregnancy starts showing. You'll start looking noticeably pregnant when your growing uterus begins to expand above the pubic bone, which may happen when you're around 12 weeks pregnant at the earliest, but often a few weeks later. Before 12 weeks, the uterus remains within the pelvis and isn't usually visible.</p>
+            <p>The size of your belly depends on the position of your uterus in your body, your height and weight, and whether you've had a baby before. Moms often start showing with a second pregnancy sooner, since their uterine and abdominal muscles have been stretched from their earlier pregnancy.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

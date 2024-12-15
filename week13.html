@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">13th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Fading first-trimester symptoms</b></p>
+            <p>As you cruise into the second trimester, you may get some relief from early pregnancy symptoms such as tender breasts, fatigue, food aversions, morning sickness, and the constant need to pee.</p>
+            <p><b>Breastfeeding prep</b></p>
+            <p>You can't feel it, but your breasts may have already started making colostrum, the nutrient-rich fluid that feeds your baby for the first few days after birth, before your milk starts to flow. Later in pregnancy, your breasts may leak a little colostrum.</p>
+            <p><b>Making a baby registry</b></p>
+            <p>Our Registry Builder will help you keep all your baby registries organized, and there's only one link to send friends and family.</p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 13 weeks</h1>
+            <p><b>Your baby can pee!</b></p>
+            <p>Your baby has started swallowing amniotic fluid and excreting urine, recycling the full volume of fluid every few hours.</p>
+            <p><b>Making meconium</b></p>
+            <p>As your baby swallows amniotic fluid, they also produce meconium. This black, sticky substance accumulates in the bowels, and becomes your newborn's first poop.</p>
+            <p><b>Teeth and bones</b></p>
+            <p>Bones are beginning to harden in your baby's skeleton, especially longer bones and the skull. Your baby's teeth and bones are becoming denser.</p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 13</h1>
+            <p><b>Cramping</b></p>
+            <p>Occasional cramping during pregnancy is common. It could be caused by anything from gas and bloating to round ligament pain. Sometimes a little movement, a hot bath or shower, drinking more fluids, or lying down can do the trick to ease abdominal pain. But in some cases cramping can signal a problem. Call your doctor or midwife if your cramping doesn't go away after several minutes of rest, the cramping or pain is severe, you have pain or unusual sensitivity in your upper abdomen, or you have other symptoms such as fever or dizziness.</p>
+            <p><b>Returning appetite</b></p>
+            <p>If you've suffered from morning sickness and food aversions until now, you may get some welcome relief in the next few weeks as you enter the second trimester. As your appetite returns, food cravings may pop up. Some experts think that cravings for certain foods are linked to a woman's nutritional needs, but many think that pregnancy cravings can't be explained that easily</p>
+            <p><b>Stuffy nose</b></p>
+            <p>Are you congested lately? Nearly one-third of pregnant women get a stuffy nose due to hormones and increased blood volume. However, if you have a fever, coughing, sore throat, or swollen glands, it's probably a cold or another infection. Find out which cold medicines are safe when you're expecting, and eat foods high in vitamin C to keep your immune system strong</p>
+            <p><b>Visible veins</b></p>
+            <p>Because your body produces 30 to 50 percent more blood during pregnancy, your veins enlarge and are more visible. You may start seeing blue, prominent veins across your chest, breasts, and belly. You may also develop varicose veins in your legs and lower body as your uterus grows. Happily, these usually disappear or improve after you have your baby.</p>
+            <p><b>Vaginal discharge</b></p>
+            <p>It's totally normal to have more vaginal discharge during pregnancy: It's because of higher levels of estrogen. If your discharge is odorless or mild-smelling and milky white, there's no need for concern. But call your healthcare provider if you have discharge that's gray, yellow, or green; causes pain or itching; or seems unusual in any other way. This could be a sign of infection or another problem.</p>
+            <p><b>Heartburn</b></p>
+            <p>Hormonal and physical changes during pregnancy can lead to heartburn (also called acid indigestion or acid reflux). It's an unpleasant burning sensation between your lower throat and the bottom of your breast bone. If you're having heartburn, avoid spicy and acidic foods. Try eating smaller meals, eating slowly, and chewing gum after eating to neutralize your stomach acids. If that doesn't help, ask your provider about pregnancy-safe heartburn medicines.</p>
+            <p><b></b></p>
+            <p></p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 13 weeks pregnant</h1>
+            <p><b>Get ready for more prenatal visits</b></p>
+            <p>During the second trimester, you'll typically see your doctor or midwife once every four weeks. Find out what will happen at second trimester prenatal appointments</p>
+            <p><b>Stock up on healthy pregnancy foods</b></p>
+            <p>During pregnancy, good nutrition is more important than ever. But it can be hard to eat well when you're dealing with nausea, food aversions, heartburn, or indigestion. Do your best to incorporate these healthy pregnancy snacks and pregnancy superfoods into your diet. During pregnancy you need lots of protein and healthy fats, and more of certain vitamins and minerals (such as folic acid, iron, and calcium). See our list of the pregnancy nutrients you need.</p>
+            <p><b>Learn about pregnancy complications</b></p>
+            <p>It's good to know the signs of common pregnancy complications just in case. Your healthcare provider will monitor you for these conditions (such as gestational diabetes and preeclampsia) throughout your pregnancy. But it's helpful if you're aware of the warning signs of these and other complications.</p>
+            <p><b>Try sleeping on your side</b></p>
+            <p>Experts say the best pregnancy sleeping position is on your side, especially as you get closer to mid-pregnancy. Side-sleeping puts the least pressure on your veins and internal organs. This ensures the best blood flow to the uterus, which means your baby will get maximum nutrients and oxygen. Good circulation also helps you avoid swelling, varicose veins in your legs, and hemorrhoids. If side-sleeping isn't your thing, don't give up until you've tried a pregnancy pillow – the right one can make a major difference in your sleep comfort.</p>
+            <p><b>Have sex if you feel up to it</b></p>
+            <p>In most cases, sex during pregnancy is totally safe. Many women find their libido plummets in the first trimester thanks to exhaustion and nausea. But for many, sex drive returns in the second trimester. Some good news: Because of increased blood flow, sex during pregnancy may feel better than ever. And having sex during pregnancy won't hurt your baby. They're protected by your uterus and a layer of muscles, and are safely cushioned by the surrounding amniotic fluid. The mucus plug inside your cervix helps guard against infection.</p>
+            <p><b>Save money on maternity clothes</b></p>
+            <p>You may be excited about shopping for maternity clothes, or you may be dreading spending money on a new wardrobe you'll only wear for a limited time. Luckily, there are lots of options for finding affordable maternity clothes. You can search for used maternity clothes online or at secondhand and consignment shops. Clothing swap groups on social media (or in person) are another good way to find cute maternity clothes without breaking the bank.</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1 style="text-align: center;">13 weeks pregnant bellies</h1>
+            <p>You're one-third of the way (or more) through your pregnancy at the end of this week! Though pregnancy is different for everyone, you're probably happy to say goodbye to the first trimester and hello to the second. Now's the time when you may start getting more energy, feeling more like yourself, and looking more visibly pregnant. The top of your uterus is moving up and out of your pelvis, making your bump more noticeable to anyone who's looking closely.You're one-third of the way (or more) through your pregnancy at the end of this week! Though pregnancy is different for everyone, you're probably happy to say goodbye to the first trimester and hello to the second. Now's the time when you may start getting more energy, feeling more like yourself, and looking more visibly pregnant. The top of your uterus is moving up and out of your pelvis, making your bump more noticeable to anyone who's looking closely.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

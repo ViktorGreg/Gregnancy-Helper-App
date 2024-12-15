@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    margin: 0;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1{
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content4 h1{
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+           <h1 style="text-align: center;">Highlight of the week</h1>
+           <p style="text-align: center;">4th Week of the Pregnancy</p>
+           <img src="preggywomen.jpg" alt=""> 
+        </div>
+        
+        <div class="content2">
+            <p><b>Taking a pregnancy test</b></p>
+            <p>By the end of this week, you may be able to get a positive pregnancy test. Pregnancy tests work by detecting the presence of a hormone called human chorionic gonadotropin (hCG) in your urine. Some home pregnancy tests claim to detect pregnancy as early as five days before you miss your period, but it's best to wait until the first day of your missed period for accurate results. If you test too soon, you may get a false negative pregnancy test or an unclear result like a faint line.</p>
+            <p><b>Your due date</b></p>
+            <p>Our Due Date Calculator can determine your due date based on the date of your last menstrual period or the date of conception. Keep in mind that a due date is just a guess – only 1 out of 20 women actually delivers on her due date. You're just as likely to go into labor any day during the two weeks before or after.</p>
+            <p><b>From blastocyst to embryo</b></p>
+            <p>Your baby-to-be will soon transform from a ball of cells called a blastocyst to an embryo the size of a poppy seed. (Once your amniotic sac forms, 10 to 12 days after fertilization, your baby becomes an official embryo.) Over the next six weeks, your baby's nervous system, connective tissue, and organs will start to develop.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 4 weeks</h1>
+            <p><b>Growing fast</b></p>
+            <p>Now that your little embryo has implanted in your uterus, cells are multiplying rapidly and taking on different functions. Your baby-to-be consists of two layers (called the hypoblast and the epiblast) from which all of the organs will begin to develop over the next six weeks.</p>
+
+            <p>This is the time when your baby will be most vulnerable to anything that might interfere with development, so be sure to steer clear of alcohol, smoking, drugs, and unsafe chemicals.</p>
+            <p>Also, watch out for overheating. High temperatures, especially early in pregnancy, have been associated with increased risk of neural tube defects. That's why saunas, steam baths, and hot tubs aren't recommended during pregnancy.</p>            
+        </div>        
+    </div>
+    <div class="container3">
+        <h1 style="text-align: center;">You baby is about a size of a poppy seed.</h1>
+    </div>
+    <div class="container4">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 4</h1>
+            <p><b>No pregnancy symptoms?</b></p>
+            <p>Don't worry. Many women don't feel anything yet this week. By next week, about half of women will experience symptoms, but most early pregnancy symptoms don't start until about 6 weeks.</p>
+            <p><b>Tender, swollen breasts</b></p>
+            <p>Breast tenderness can be one of the first signs of pregnancy. It usually starts around 4 to 6 weeks and lasts through the first trimester. You may notice your breasts growing or your nipples darkening. Some women also see prominent blue or purple veins develop on their breasts in early pregnancy.</p>
+            <p><b>Fatigue</b></p>
+            <p>For many women, exhaustion is one of the early signs of pregnancy. Pregnancy fatigue affects almost all expecting moms in the first trimester, likely due to a dramatic rise in progesterone.</p>
+            <p><b>Nausea or vomiting</b></p>
+            <p>Despite the misleading name, morning sickness can strike at any time of day. It usually starts around 6 weeks of pregnancy but can begin as early as 4 weeks. Up to 80 percent of expecting moms experience nausea during pregnancy, and about half have both nausea and vomiting.</p>
+            <p><b>Gas and bloating</b></p>
+            <p>Increased progesterone levels may be slowing down your digestion and causing gas and bloating. Even weeks before you begin to show, you may burp or pass gas much more often, or have to unbutton your pants to relieve bloating</p>
+            <p><b>Cramping</b></p>
+            <p>Cramps during pregnancy are often nothing to worry about. In early pregnancy, some women feel implantation cramps (and can have some spotting) when the fertilized egg implants in the uterus. However, first trimester cramps along with other symptoms (such as bleeding) can signal a problem such as an ectopic pregnancy or miscarriage. Find out when to call your doctor or midwife about cramping during pregnancy.</p>
+
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 4 weeks pregnant</h1>
+            <p><b>Make a prenatal appointment</b></p>
+            <p>Once you get a positive pregnancy test, call your doctor or midwife and make your first prenatal appointment. Many healthcare providers will schedule your first visit for when you're about 8 weeks pregnant. Some will see you sooner, particularly if you have a medical condition, have had problems with a pregnancy in the past, or are having symptoms such as vaginal bleeding, abdominal pain, or severe nausea and vomiting.</p>
+            <p><b>Make sure your medicine is pregnancy-safe</b></p>
+            <p>Always check with your provider before you take any kind of medicine during pregnancy – prescription medicine or even an over-the-counter (OTC) product. If you take medication currently, ask your provider whether it's a safe medicine for pregnancy. Your doctor or midwife can help you find a good alternative if it isn't.</p>
+            <p><b>Soothe your digestive system</b></p>
+            <p>If you're plagued by gas, bloating, or an uncomfortable sensation in your gut, try eating smaller meals throughout the day. Eat slowly and chew your food well, don't drink too much water during meals, and avoid carbonated beverages, gum, and the artificial sweetener sorbitol. Exercise, like walking or prenatal yoga, can also provide relief.</p>
+        </div>
+    </div>
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

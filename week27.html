@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">27th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Taking naps</b></p>
+            <p>Naps are a wonderful way to get better sleep during pregnancy. Studies show more than half of pregnant women take a nap during the work week, and 60 percent take naps over the weekend.</p>
+            <p><b>Tattoos while pregnant</b></p>
+            <p>Hold off until you've given birth to get inked, since there isn't enough research to establish whether getting a tattoo while pregnant is safe for your developing baby.</p>
+            <p><b>Vitamin B12 during pregnancy</b></p>
+            <p>Vitamin B12 is important for your baby's developing brain and spinal cord. Here are ways to have the recommended 2.6 micrograms of vitamin B12 during pregnancy each day.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 27 weeks</h1>
+            <p><b>Opening their eyes</b></p>
+            <p>Your baby's eyes can now open and close! Your baby may move in response to light: If you shine a flashlight at your tummy, you might feel a burst of flutters and wiggles.Your baby's eyes can now open and close! Your baby may move in response to light: If you shine a flashlight at your tummy, you might feel a burst of flutters and wiggles.</p>
+            <p><b>Hiccups in the womb</b></p>
+            <p>Any tiny, rhythmic movements you feel are likely fetal hiccups. Each episode usually lasts only a few moments, and they're totally normal, so relax and enjoy the strange sensation.Any tiny, rhythmic movements you feel are likely fetal hiccups. Each episode usually lasts only a few moments, and they're totally normal, so relax and enjoy the strange sensation.</p>
+            <p><b>Getting ready to breathe</b></p>
+            <p>Your baby's lungs are making surfactant. This liquid substance helps the alveoli (tiny air sacs in the lungs) remain open, which makes it possible for your baby to breathe after birth.Your baby's lungs are making surfactant. This liquid substance helps the alveoli (tiny air sacs in the lungs) remain open, which makes it possible for your baby to breathe after birth.</p>
+            
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 27</h1>
+            <p><b>Extra body hair</b></p>
+            <p>Thicker, fuller hair is a well-loved symptom of pregnancy many women experience, but there are two sides to the coin. While the hair on your head may be growing rapidly and looking healthier than ever before, pregnancy can also cause an increase in facial and body hair.</p>
+            <p>During pregnancy, the hair growth cycle changes. More hair follicles stay in the growth phase of the cycle, called the anagen phase. This is triggered by changes in hormone levels, and can cause a noticeable increase in hairiness. If additional hair is bugging you, safe methods of hair removal include waxing, tweezing, shaving, and threading. There's very little research on laser hair removal, hair removal creams, and depilatories during pregnancy, so these methods are best avoided. Spironolactone pills, which reduce hair growth, are unsafe during pregnancy.</p>
+            <p><b>Restless legs</b></p>
+            <p>In later pregnancy, some women feel an unpleasant "creepy-crawly" sensation in their lower legs and an irresistible urge to move them while trying to relax or sleep. If this sensation is at least temporarily relieved when you move, you may have what's known as restless leg syndrome, or RLS.</p>
+            <p><b>It's unknown why 20 percent of pregnant women experience restless leg syndrome. Iron and folate deficiencies, hormonal changes, and circulatory changes are a few of the possible causes of RLS.</b></p>
+            <p>Since caffeine and smoking can worsen symptoms of RLS, avoiding these two things during pregnancy could help you get some rest. (Smoking during pregnancy is also dangerous for many reasons.) If you have symptoms of RLS, try to stay out of bed until you're ready to sleep. The longer you're in bed, the worse RLS symptoms become.</p>
+            <p>Thankfully, RLS during pregnancy is temporary – it usually disappears after you deliver. Until then, exercise, stretching, meditation, and massage may help ease your symptoms. Some women say taking calcium, magnesium, or iron supplements (with their provider's guidance); eating bananas; and even having an orgasm helped them relax and get some sleep.</p>
+            <p><b>Urinary incontinence</b></p>
+            <p>Many pregnant women deal with leaking urine, especially later in pregnancy. Hormonal changes cause the muscles in the pelvic floor to relax, so they give less support to your bladder. Also, your blood volume increases, which means your kidneys are processing more fluid and you have more urine.</p>
+            <p>Women who are over 35 years old, have already had a vaginal birth, or are overweight are more likely to experience urinary incontinence during pregnancy. Additionally, a family history of incontinence and certain chronic medical conditions can increase the chances of leaking urine while you're expecting.</p>
+            <p>Avoiding coffee, tea, and soda and drinking water instead can improve symptoms of urinary incontinence. Doing pelvic floor exercises, such as Kegels, and eating enough fiber is also helpful. Also, talk to your doctor or midwife – they'll want to rule out a UTI, and they may be able to offer help.</p>
+            <p><b>Swelling</b></p>
+            <p>It's common for women to experience moderate swelling, especially in their feet and ankles, during the third trimester of pregnancy. Edema (swelling caused by the accumulation of fluid in your body's tissues) occurs in two-thirds of pregnancies.</p>
+            <p>Hormonal changes can add to swelling in pregnancy, plus your body naturally retains more fluids to support your pregnancy. By the end of pregnancy, you can expect to be carrying an extra 2 to 3 pounds of water weight.</p>
+            <p>Your growing uterus puts pressure on your veins, which slows the return of blood from your legs, causing it to pool and forcing fluid from your veins into the tissues of your feet and ankles. Swelling tends to get worse when you spend a lot of time sitting or standing, since gravity pulls fluids down to your ankles and feet.</p>
+            <p>Getting off your feet, wearing compression socks, and drinking a lot of water can lessen swelling during the third trimester. Getting a massage, eating healthy meals, and sleeping on your left side can also help.</p>
+            <p>In most cases, swelling isn't something to worry about. However, excessive swelling can sometimes signal the serious pregnancy complications preeclampsia or deep vein thrombosis (DVT). Call your provider if you ever have any unusual swelling, especially if it's sudden or excessive, just on one side, or in your face or hands.</p>
+            <p><b>Weight gain</b></p>
+            <p>Gaining too much or too little can raise your risk for complications – so it's important to keep an eye on your pregnancy weight gain. But keep in mind that guidelines are just that: They're not hard and fast rules, and they can vary based on your individual health needs.</p>
+            <p>In general, if you were at a healthy weight before pregnancy and are having one baby, you're recommended to gain between 25 and 35 pounds. The guidelines are to gain 28 to 40 pounds if you were underweight, 15 to 25 pounds if you were overweight, and 11 to 20 pounds if you were obese. (These numbers increase if you're carrying twins.) You can use our Pregnancy Weight Gain Calculator to see how you're tracking.</p>
+            <p>In the third trimester, you may need about 450 extra calories a day to meet your weight-gain goals. Losing weight during pregnancy isn't safe, but you also don't want to gain too much. Talk to your doctor or midwife if you're having trouble – they can help you manage weight gain and may refer you to a nutritionist if needed.In the third trimester, you may need about 450 extra calories a day to meet your weight-gain goals. Losing weight during pregnancy isn't safe, but you also don't want to gain too much. Talk to your doctor or midwife if you're having trouble – they can help you manage weight gain and may refer you to a nutritionist if needed.</p>
+            <p><b>Pelvic pain</b></p>
+            <p>As your pregnancy progresses, you may notice sharp pain and throbbing aches in your hips and groin. Worsening pelvic pain (also known as pelvic girdle pain) is due to typical pregnancy changes, such as hormonal shifts, weight gain, and your growing belly throwing off your center of gravity.</p>
+            <p>Wearing a pregnancy girdle or belly band could lessen your discomfort. A pregnancy pillow can help you position yourself for sleeping comfortably, and putting a pillow between your knees will keep your hips in a neutral position.</p>
+            <p>If your pelvic pain is especially hard to manage, your provider might recommend physical therapy or over-the-counter medication to help with your symptoms. Getting regular exercise and taking breaks throughout the day to rest can also lessen pelvic pain.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 27 weeks</h1>
+            <p><b>Get ready for more prenatal visits</b></p>
+            <p>In the third trimester you'll be seeing your doctor or midwife more often: Probably every two weeks from 28 to 36 weeks, then weekly after that.</p>
+            <p>These frequent appointments will be similar to your previous visits with your healthcare provider. They'll check your blood pressure, weight, and urine, and listen to your baby's heartbeat. Your provider will measure your fundal height to gauge whether your baby's growth is on track.</p>
+            <p>Depending on your health history and pregnancy experience so far, your visits could include additional ultrasounds and tests. Find out what to expect at each visit.</p>
+            <p><b>Do some third-trimester shopping</b></p>
+            <p>You're almost in your final trimester! These must-have products will make the end of pregnancy and the beginning of parenting more manageable. For starters, take a look through your dresser drawers and make sure you have nursing camis or nursing bras, a comfy robe, and roomy lounge pants for the first few weeks postpartum. Also, if there's anything specific you want to pack in your hospital bag (say an eye mask, baby book, or gifts for older siblings) pick it up now.</p>
+            <p><b>Start doing Kegels</b></p>
+            <p>Kegel exercises can help prevent urine leaks during and after pregnancy, keep hemorrhoids at bay, and improve the muscle tone of your vagina, making sex more enjoyable.</p>
+            <p>Here's how to do Kegels: Pretend that you're trying to stop yourself from passing gas and peeing at the same time. Or, imagine that you're sitting on a marble and trying to pull it up into your vagina – it's a sensation of squeezing and lifting with your pelvic floor muscles. Do this without pulling in your tummy, squeezing your legs together, tightening your buttocks, or holding your breath.</p>
+            <p>Consistently doing Kegel exercises for a few minutes a day can make a big difference for your pelvic floor. It's best to start slow, doing just a few Kegels at a time and adding more repetitions as you feel stronger.</p>
+            <p>Kegels are helpful, but they're only one tool to avoid pelvic floor dysfunction. Talk to your healthcare provider if you're concerned, and ask for a referral to a pelvic floor physical therapist.</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1 style="text-align: center;">27 weeks pregnant bellies</h1>
+            <p>Your baby and your belly are getting heavier! At 27 weeks, you might be noticing more pregnancy aches and pains. This is a normal part of the (soon-to-be) third trimester, but that doesn't mean you should just grin and bear it.</p>
+            <p>A pregnancy belt or belly band can provide extra support to your abdominal area and lower back and might help reduce pelvic and lower back pain. Many belts wrap snugly around your hips and rest under your belly, but some cover your entire bump and offer support from your hips all the way up under your bust.</p>
+            <p>One of the best strategies to prevent and treat body aches in pregnancy is to stay physically active. While it may seem counterintuitive, exercise helps relieve all sorts of common pregnancy complaints, from back pain to constipation and gas. Pregnancy-safe exercise helps to keep weight gain in check, strengthens and stretches your muscles, improves your posture, and supports your circulation.</p>
+            <p>To relieve back and pelvic pain specifically, sit in a supportive chair, sit down when getting dressed, use proper form to lift heavier objects, and try to avoid standing for long periods of time if possible.</p>
+            <p>If these tips don't help, talk to your provider about whether to take a pregnancy-safe pain reliever (usually acetaminophen). You can also ask your ob-gyn or midwife for a referral to a physical therapist. Working with a physical therapist can help relieve your pain and increase your strength as pregnancy progresses.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

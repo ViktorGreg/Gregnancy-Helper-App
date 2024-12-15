@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">20th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>You're halfway there!</b></p>
+            <p>You're at the midpoint in your pregnancy – or maybe a little more or less. Most women don't deliver exactly on their due date. You're just as likely to go into labor any day during the two weeks before or after.</p>
+            <p><b>Fundal height</b></p>
+            <p>From now on, at each prenatal visit your doctor or midwife will measure your belly from your pubic bone to the top of your uterus. This "fundal height" measurement shows how your baby's growing. Starting around 24 weeks, the height in centimeters is about equal to the number of weeks you're pregnant.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content">
+            <h1>Baby development at 20 weeks</h1>
+            <p><b>Baby hiccups</b></p>
+            <p>If you notice some baby movements that feel like subtle, rhythmic jerking, don't worry – baby hiccups in the womb are totally normal. Many expecting moms start to feel baby hiccups around the same time they feel other fetal movements, typically between 16 and 22 weeks.</p>
+            <p><b>Your baby can taste</b></p>
+            <p>Many of your baby's taste buds can now transmit taste signals to their brain, and your baby is swallowing molecules of the food you eat that have passed through your blood into your amniotic fluid. Researchers aren't positive whether babies can taste these molecules, but some research indicates that what you eat during pregnancy can influence the foods your baby prefers later.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1>Pregnancy symptoms during week 20</h1>
+            <p><b>Itchy skin</b></p>
+            <p>You may feel especially itchy around your belly and breasts as your skin stretches to accommodate your growing baby. Many expecting moms experience itchy skin at some point. Use cold packs and slather on moisturizer for relief. (Scratching can make it worse!) Get more tips on easing the itch, and find out when itchy skin could signal a problem.</p>
+            <p><b>Restless sleep</b></p>
+            <p>Do you shift around all night trying to find a comfortable sleeping position? These suggestions may help: Lie on your side, with your knees bent and a pillow between your legs. For extra comfort and support, arrange other pillows under your belly and behind your back. You can also try using a pregnancy pillow.</p>
+            <p><b>Hair and nail changes</b></p>
+            <p>Finally, some enjoyable pregnancy symptoms! You may be noticing you have longer nails and thicker hair at this point. Hair often gets thicker during pregnancy – not because you're growing more, but because estrogen makes the growth phase longer. Basically, you're losing less hair. All the hair you didn't lose during pregnancy will start shedding about three to five months after delivery. It's normal, but postpartum hair loss can come as a surprise. Also, your nails are growing faster than usual now and possibly looking different. Some expecting moms have harder nails, while others find their nails are softer or more brittle.</p>
+            <p><b>Lower back pain</b></p>
+            <p>You're likely to experience some lower back pain in pregnancy. Your growing uterus is putting strain on your back, and the extra weight you're carrying makes your muscles work harder. Plus, your hormones are making your joints and ligaments less stable. Some exercise can help ward off lower back pain: Weight training can help strengthen your core muscles, stretching increases flexibility in the muscles that support your back and legs, and swimming not only strengthens your body but also takes the strain off your joints and ligaments. To cope with lower back pain, try getting a prenatal massage, applying heat or cold, and learning relaxation techniques</p>
+            <p><b>Constipation</b></p>
+            <p>Constipation during pregnancy is common, caused by hormone changes, decreased activity levels, and an expanding uterus. Constipation can cause other problems, too. One of the most common is hemorrhoids, which are swollen veins in the rectum and anus. To ease constipation, drink plenty of water, eat high-fiber foods like whole grains, exercise regularly, and talk to your provider. They may advise you to use a stool softener, take magnesium, or switch prenatal vitamins to one with less iron.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1>Pregnancy checklist at 20 weeks</h1>
+            <p><b>Look for a pediatrician</b></p>
+            <p>You're going to see your baby's doctor a lot in the first few years. Get some tips on choosing a doctor for your baby, and make sure to pick someone you genuinely connect with. You can ask your ob-gyn or midwife, friends, and relatives for recommendations; then check to see who's covered by your insurance and conveniently located. See if you can meet your top candidates in person – there could be a charge, but insurance may cover it.</p>
+            <p><b>Treat yourself</b></p>
+            <p>You're at the halfway point in your pregnancy, so celebrate! How about a facial, prenatal massage, or pregnancy photoshoot to mark the occasion? If you don't feel like spending money, do something nice for yourself like getting books from the library, going on a beautiful walk, or taking a bubble bath.</p>
+            <p><b>Experiment in bed</b></p>
+            <p>At 20 weeks pregnant, some expecting moms find they have a higher sex drive and better orgasms because of increased blood flow and lubrication. For most women, sex during pregnancy is completely safe and beneficial – it helps you stay active, releases hormones that make you happy and relaxed, and facilitates a close bond with your partner. If your belly is starting to get in the way, experiment with pregnancy sex positions that will accommodate your bump.</p>
+            <p><b>Do a "brain dump"</b></p>
+            <p>If you're feeling stressed or having trouble falling asleep because your mind is racing, try writing down everything that's bothering you in a journal. Don't worry about making it neat or well written. The most important thing is to get the worries out of your head and on to the page.</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1>20 weeks pregnant bellies</h1>
+            <p>The top of your uterus is about in line with your belly button now, making your belly rounder than ever. As your uterus continues to push against your abdomen, you might find that your belly button flattens or pops out, turning your "innie" into an "outie."</p>
+            <p>Many pregnant women say their belly button feels weird or uncomfortable. Your belly button is the thinnest part of your abdominal wall, and as your belly grows, your belly button may become more sensitive to the touch. It can even feel unpleasant when clothes rub against it. (However, true belly button pain during pregnancy is unusual and could be a sign of an umbilical hernia.)</p>
+            <p>After delivery, your belly button will likely return to its regular size and shape, but it may look slightly stretched. Pregnancy changes many parts of our bodies, sometimes temporarily, sometimes permanently</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

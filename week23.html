@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">23rd Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content">
+            <p><b>Safe pregnancy exercise</b></p>
+            <p>For most expecting moms, exercise is not only safe, it's recommended for a healthy pregnancy. Choose from these safe pregnancy workouts.</p>
+            <p><b>Top pregnancy foods</b></p>
+            <p>Salmon helps with fetal brain development. Eggs help prevent certain birth defects. Avocados can ward off leg cramps. And that's only the beginning! Here are the best foods for pregnancy.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content2">
+            <h1 style="text-align: center;">Baby development at 23 weeks</h1>
+            <p><b>Hearing you</b></p>
+            <p>Your baby can hear sounds from outside your body now, such as your voice or your partner's. Research shows babies learn to recognize their mother's voice inside the womb, and show a clear preference for her voice over others.</p>
+            <p><b>Your baby's digestive system</b></p>
+            <p>The wave-like movements that propel food along your baby's digestive tract begin now. As with swallowing, it's just practice for your baby's system at this point since there's no actual food to move.</p>
+            <p><b>Baby movement</b></p>
+            <p>Those subtle flutters you've noticed may begin to feel stronger. Instead of something like butterfly wings, baby movements will evolve into gentle kicks and jabs. At 23 weeks, you can begin making note of patterns associated with your baby's movement. Are they more active after you eat? Do they get a little wild when you lie down for the night?</p>
+            
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Pregnancy symptoms at 23 weeks</h1>
+            <p><b>Linea nigra</b></p>
+            <p>Also called the pregnancy line, the linea nigra is a dark, vertical line most pregnant women develop on their growing baby bump during their second trimester. Higher-than-usual levels of hormones act on the cells that contain melanin, which gives your skin its color. (Fun fact: You always have the line down your belly, but it's usually not visible.) Even though most women will develop the linea nigra during pregnancy, it's most prominent for women with dark skin and dark hair. After your pregnancy, the linea nigra should fade over a few weeks to months, though in some women it may not disappear entirely.</p>
+            <p><b>Breast changes</b></p>
+            <p>The most obvious pregnancy breast change is one you're probably very aware of: Your breasts grow! Now that you're in the second half of pregnancy, you might also notice that the veins in your breasts are more prominent and your areolas (the pigmented area around your nipples) are darkening. As your due date draws near, your breasts might leak colostrum. This high-protein, antibody-rich liquid is the first milk your baby will eat after they're born. It's totally normal if your breasts leak drops of this thick, yellowish substance during pregnancy – but it's nothing to worry about if they don't.</p>
+            <p><b>Pregnancy cravings</b></p>
+            <p>Now that your appetite has likely returned (perhaps stronger than ever), you might be having intense cravings. Most women will crave at least one specific food during pregnancy, and many crave a variety of different foods.</p>
+            <p>While it isn't clear what causes pregnancy cravings, some experts suspect changing hormones play a role. We asked BabyCenter moms what they craved most during pregnancy: Almost half (49%) said sweets, 42% said salty snacks, 38% said spicy foods, and 21% said sour stuff like citrus fruit, green apples, and sour candy. (Respondents could choose multiple categories.)</p>
+            <p>It's fine to eat what sounds good – just don't let any unhealthy cravings overpower your need for nutritious food during pregnancy. To keep urges for salty and sweet snacks in check, eat a varied diet full of fruits and veggies, whole grains, and protein every day.</p>
+            <p><b>Vision changes</b></p>
+            <p>Many women have mild and temporary vision changes during pregnancy, such as becoming more nearsighted or having blurry vision. Pregnancy changes in hormones, metabolism, fluid retention, and circulation can all affect your eyesight. It's wise to pay attention to vision changes because some can signal serious health complications during pregnancy, such as preeclampsia, eclampsia, and hyperthyroidism. If you're experiencing temporary vision loss, having severely blurry vision or double vision, or seeing flashing lights, call your healthcare provider immediately.</p>
+            <p><b>Forgetfulness</b></p>
+            <p>Is "pregnancy brain" real? It's not clear, but some think forgetfulness during pregnancy may be caused by sleep disruptions, changing hormones, stress, and brain changes. If you're forgetting names or lacking focus, you're not alone – plenty of expecting moms say they feel some brain fog. But keep in mind: The research isn't clear that pregnancy brain exists or that it affects every expecting mom. Pregnant women who do notice it typically experience minor, manageable forgetfulness. And having pregnancy brain doesn't mean you aren't as smart and capable as ever.</p>
+            
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy checklist at 23 weeks</h1>
+            <p><b>Decide whether to hire a doula</b></p>
+            <p>A doula is a trained labor coach who can help you during labor and delivery. If you're interested in hiring one, it's a good idea to start your search in the second trimester. You can ask your healthcare provider, birth class instructor, or friends for a referral, or you can check the DONA website. It's important to find a doula who's the right fit for you. You'll want to ask potential birth doulas about their training, experience, schedule, coping-with-labor techniques, partner involvement, fees, backup doulas, and references.</p>
+            <p><b>Write a letter to your baby</b></p>
+            <p>This can be a moving keepsake to share with your child later. Jot down your pregnancy experiences and your hopes and dreams for your baby's future. Or if writing isn't your thing, put together a collage or a memory box of pregnancy mementos like your positive pregnancy test and ultrasound photos. Eventually you can add cards you get at your baby shower, the infant hat you get at the hospital, and your baby's coming-home outfit.</p>
+            <p><b>Sleep on your side</b></p>
+            <p>To get the best rest during pregnancy, experts recommend sleeping on your side. Some healthcare providers will advise you to sleep on your left side specifically because it keeps pressure off of the vein that brings blood back from your legs to your heart, promoting better circulation for you and your baby. That said, there's no hard evidence that sleeping on your left side is better, so feel free to do choose the side that's comfortable for you. For many women, this means switching back and forth. If you're struggling to get comfortable on your side, invest in a pregnancy pillow for better hip and back support.</p>
+            <p><b>Start preparing your body for labor</b></p>
+            <p>Now's a good time to start doing exercises that can help you during labor and birth. Women who exercise during pregnancy may have less pain and discomfort during labor, a lower rate of C-section birth, and a faster postpartum recovery. Here are step-by-step instructions for exercises and stretches that help with labor, including hip openers, back stretches, pelvic floor exercises, and breathing techniques.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">23 weeks pregnant bellies</h1>
+            <p>Your baby is going to double in weight in the next month or so! Get ready for an increased appetite and a rapidly growing bump, which could throw off your center of gravity. Be sure to take it slow, avoid unsafe activities that increase your risk of falling, use caution when lifting heavy things, and try prenatal yoga to improve your balance. You may be gaining about one pound per week during your second trimester – use our Weight Gain Calculator to see how you're tracking.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

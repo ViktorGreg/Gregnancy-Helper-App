@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }   
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">41st Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Time for induction?</b></p>
+            <p>For safety reasons, your doctor or midwife will recommend inducing labor if your baby isn't born this week. Providers won't let you go more than two weeks past your due date because it raises the risk of complications.</p>
+            <p>You'll also be seeing your provider more – perhaps twice a week until you deliver. They want to make sure that you and your baby stay healthy until your little one makes their grand entrance.</p>
+            <p><b>Meeting your baby</b></p>
+            <p>At long last, you'll soon meet your precious little one. Your baby may look a little funny at first: Their head may be misshapen from squeezing through the birth canal, and their skin may be peeling from their long bath in amniotic fluid. That's okay: They'll still be absolutely beautiful to you.</p>
+            <p><b>Sharing the news</b></p>
+            <p>How will you announce your baby's birth? Most new parents use social media or a text, but some get more creative. Remember – there's no rush to announce. It's fine to take time to savor your new addition before telling the world they've arrived.</p>
+            
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 41 weeks</h1>
+            <p><b>Your overdue baby</b></p>
+            <p>Your baby is "late term" – which means they've been camping out in your womb for a long time. They may be larger than the average baby. Also, they may have lost most of their vernix, which is the waxy, white coating that stops their skin from drying out in the amniotic fluid.</p>
+            <p><b>How big is your baby now?</b></p>
+            <p>At 41 weeks, your baby's size is impressive. According to estimates, they'll weigh 8.35 pounds and be 20.39 inches long. (Of course, this may be way off for your individual baby.)</p>
+            
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 41</h1>
+            <p><b>Anxiety</b></p>
+            <p>It's hard not to be anxious when your due date comes and goes and you're still hugely pregnant. But fear not – you won't be pregnant forever.</p>
+            <p>Anxiety is normal at all stages of pregnancy, but you may notice that it kicks up toward the end. That's normal, but it's always a good idea to talk with your doctor or midwife if you're concerned. Taking steps to manage stress – like deep breathing, going for a walk, or talking with friends – can help you feel better.</p>
+            <p><b>Feeling movement</b></p>
+            <p>Keep paying attention to your baby's movements, and let your doctor or midwife know right away if they decrease. Your baby should remain active right up to delivery, and a noticeable slowdown in activity could be a sign of a problem.</p>
+            <p>Your provider will also be keeping a close eye on your baby. They may recommend a non-stress test to check that your baby is still happy and healthy in the womb.</p>
+            <p>During the test, a nurse will strap a monitor across your belly. The monitor measures your baby's heartbeat, which increases with movement. If your baby's heart doesn't beat faster twice during the test, they're said to be "nonreactive." Your provider may recommend another test, the biophysical profile. But more likely, they'll admit you to the hospital for delivery.</p>
+            <p><b>Leaking fluid</b></p>
+            <p>Call your provider if you think your water may have broken. Sometimes there's a big gush of fluid, but sometimes there's only a small burst or a slow leak.</p>
+            <p>If you're on the fence about whether you're leaking, put on a pad. Check it about half an hour later. If it's significantly wet, your water has probably broken.</p>
+            <p><b>Dilation and effacement</b></p>
+            <p>By now, your doctor or midwife may have done an internal exam to check the dilation and effacement of your cervix. Some dilation can happen before labor – your provider might have told you that you're a few centimeters dilated already.</p>
+            <p>Dilation refers to the gradual opening of your cervix to let your baby pass through. It's measured from 0 to 10 centimeters. By the time you're 6 centimeters dilated, you'll likely be in active labor.</p>
+            <p>Effacement is when the cervix shortens, becoming softer and thinner in preparation for your baby's birth. As your body gets ready for labor and once labor begins, your cervix gradually thins out until it's like a sheet of paper.</p>
+            <p>Providers measure effacement as a percentage, from 0 to 100%. Effacement happens hand-in-hand with dilation, although effacement may begin first. As with dilation, it can take weeks, days, or hours to reach full effacement. When your cervix is 10 centimeters dilated and 100% effaced, it's time to push your baby out!</p>
+            <p><b>Bloody show</b></p>
+            <p>Watching for signs of labor? As labor approaches, you may see bloody, mucus-like discharge. Many women notice bloody show accompanied by their mucus plug, a clump of transparent or slightly bloody mucus that protects the uterus during pregnancy. Once your cervix starts to open in preparation for labor, the mucus plug can dislodge and show up in your underwear.</p>
+            <p>Losing your mucus plug and having bloody show are signs that your body is preparing for labor, but they don't mean labor is imminent. Also, if you don't notice your mucus plug or bloody show, don't worry – you might not see this before going into labor.</p>
+            <p><b>Nausea</b></p>
+            <p>When labor begins, digestion slows or stops, and you may feel sick to your stomach. Some women report feeling nauseated during labor, and others say they were nauseated a day or two beforehand. More often, nausea happens during active labor.</p>
+            <p>Nausea isn't uncommon, but let your doctor or midwife know if it persists or is new, with vomiting. Sometimes new nausea and vomiting at the end of pregnancy can be a sign of preeclampsia, a dangerous blood pressure disorder.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 41 weeks</h1>
+            <p><b>Get support if you're still pregnant</b></p>
+            <p>Fed up with the waiting game? Check in with other moms-to-be in your Birth Club who are feeling stalled, too.</p>
+            <p><b>Do something nice for yourself</b></p>
+            <p>Whether it's a mani-pedi, a movie night, your favorite take-out, or something else, go ahead and treat yourself. Being 41 weeks pregnant isn't easy, and you deserve some relaxation and comfort.</p>
+            <p><b>Review your hospital plan</b></p>
+            <p>Make sure you know who will be driving you when it's time to go to the hospital or birth center. Also, have a backup driver just in case. If it's an emergency and there's no one around, call 911.</p>
+            <p>If you have children already (or pets!), review who will be watching them when you go into labor. Remind your chosen caregiver(s) that they might receive a middle-of-the-night call.</p>
+            <p><b>Think about fun future activities</b></p>
+            <p>Maternity leave is primarily a time for recovery and bonding. But that doesn't mean you can't have a little fun. If you like, do a little research into activities to try with your baby. There are helpful groups for new moms you can check out – everything from breastfeeding support to baby-and-me fitness classes. (These groups are a great way to meet other brand-new parents and form lasting friendships, too.)</p>
+            <p>You might also scope out new parks or museums where you can take your baby in a stroller or carrier. Once you're both ready for outings, it's nice to get a change of scenery.</p>
+        </div>
+    </div>
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">BabyCenter's editorial team is committed to providing the most helpful and trustworthy pregnancy and parenting information in the world. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you're seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href=""></a>https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997 [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href=""></a>https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287 [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+
+
+
+

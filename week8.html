@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container1">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">8th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Your baby's fingers and toes</b></p>
+            <p>Your baby's hands and feet – which look like paddles – are sprouting webbed fingers and toes. Nerves, bones, and muscles are developing inside your baby's tiny limbs.</p>
+            <p><b>Breast changes</b></p>
+            <p>Your breasts may be tender and swollen by now. If your old bras are feeling tight, buy a few good maternity bras for support.</p>
+            <p><b>Pregnancy and work</b></p>
+            <p>If you work with other expecting moms or people with young children, you may want to ask for their support and advice on being pregnant at work.</p>
+            <p><b>Your baby registry</b></p>
+            <p>It's not too soon to check out Registry Builder, which finds the best baby registries for you and helps you manage them in one place.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 8 weeks</h1>
+            <p><b>Baby movements</b></p>
+            <p>Your baby is moving! These first movements are more like spontaneous twitches and stretches. They start at about 7 to 8 weeks and are visible on ultrasound. You won't feel your baby move until sometime between 16 and 22 weeks, though. Until then, your baby's movements aren't strong enough for you to notice.</p>
+            <p><b>Getting ready to breathe</b></p>
+            <p>Your baby's respiratory system is forming. Breathing tubes extend from your baby's throat to the branches of their developing lungs.</p>
+            <p><b>Nerve network</b></p>
+            <p>A network of nerves is spreading through your baby's body, making connections not only with each other but also with muscles and other tissues, as well as organs like the eyes and ears.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1>Pregnancy symptoms during week 8</h1>
+            <p><b>White discharge</b></p>
+            <p>You may notice an increase in white creamy discharge early in pregnancy, due to higher levels of estrogen. White vaginal discharge (called leucorrhea) is nothing to worry about: This discharge is normal and can be clear to milky white, thin or thick, and mild-smelling or odorless. But vaginal discharge that's green, smells unpleasant, causes pain or itching, or seems unusual in any other way could be a sign of infection or another problem.</p>
+            <p><b>Growing breasts</b></p>
+            <p>Rising levels of hormones cause your breasts to grow in preparation for making breast milk. Don't be surprised if you go up a cup size or two, especially if it's your first baby. Other breast changes you may see include visible veins on your breasts, darker nipples, and more pronounced bumps on your areolas.</p>
+            <p><b>Abdominal bloating</b></p>
+            <p>Hormonal changes in early pregnancy may leave you feeling bloated, similar to the feeling some women have just before their period. That's why your clothes may feel more snug than usual at the waistline, even early on when your uterus is still relatively small.</p>
+            <p><b>Heightened sense of smell</b></p>
+            <p>You might feel like you have a superhuman sense of smell right now. Unfortunately, most of what you're smelling may make you want to throw up. A heightened sense of smell often goes hand in hand with food aversions – both are linked to surging levels of pregnancy hormones, and both tend to fade by the second trimester.</p>
+            <p><b>Weird pregnancy dreams</b></p>
+            <p>First you give birth to ... your partner. Then you make a speedy getaway in a school bus. Finally, you're engulfed by a tidal wave. Pregnancy dreams are all over the place, and can reflect the excitement you feel, as well as the fear and worries you may have about becoming a parent.</p>
+            <p><b>Headaches</b></p>
+            <p>Headaches are common during pregnancy due to factors including increased blood flow and fatigue. Cutting back on caffeine during pregnancy, though important, can also lead to an aching head. Ask your provider before you take pain medicine for a headache. In general, acetaminophen is safe to take as directed during pregnancy, but aspirin, ibuprofen, and most prescription migraine drugs are not. You can also try a number of natural headache remedies to ease your discomfort, like getting a massage, using a compress, practicing relaxation techniques, exercising, and taking a shower.</p>
+            <p><b>Severe morning sickness</b></p>
+            <p>Most women feel nauseated during pregnancy at some point, and about half vomit. But an unlucky 3 percent of expecting moms experience hyperemesis gravidarum (HG), an extreme form of morning sickness that can lead to dehydration, weight loss, and other complications. Call your provider if you can't keep anything down (including fluids); vomit blood; have lost more than 5 pounds; feel weak, faint, or dizzy; have a fever or abdominal pain; or have dark and strong-smelling urine.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy checklist at 8 weeks pregnant</h1>
+            <p><b>Start documenting your bump</b></p>
+            <p>Create a fun time lapse of your pregnancy by documenting your growing bump every week or so. Check out these tips on how to get the best bump photos week after week. Even if you don't see a noticeable bump yet, start taking photos now so you have a starting point for comparison.</p>
+            <p><b>Pay attention to your mental health</b></p>
+            <p>It's common to feel moody during pregnancy. But if you're feeling more than a little blue, or if these emotions persist for more than two weeks, take our prenatal depression quiz and discuss the results with your healthcare provider</p>
+            <p><b>Focus on good pregnancy sleep</b></p>
+            <p>In early pregnancy you may be more exhausted than you ever imagined you could be. It takes a lot of energy to make a new life! Pregnancy also brings a host of sleep disturbances such as frequent urination, nausea, heartburn, leg cramps, and snoring. Get more rest by turning in early – you'll be glad when you wake up refreshed the next day. Practice the basics of good sleep during pregnancy by watching what and when you eat, using the right pillows, learning how to relax, and practicing good "sleep hygiene." Sleep hygiene means sticking to a sleep schedule, establishing a bedtime routine, and blocking light and noise in your bedroom.</p>
+            <p><b>Use sunscreen</b></p>
+            <p>It's always important to use sunscreen, but during pregnancy it can help you avoid a condition called melasma or chloasma – darker patches of skin on your face or body, which may be triggered by hormonal changes. Women with darker skin are more likely to experience melasma, but it can happen to any expecting mom. Melasma is also sometimes referred to as the mask of pregnancy because the splotches typically show up around your upper lip, nose, cheekbones, and forehead in the shape of a mask. These darker spots will eventually go away after pregnancy. Staying out of the sun and using a broad spectrum sunscreen with SPF 30 or higher every day (whether or not it's sunny) is the best way to prevent melasma.</p>
+            <p><b></b></p>
+            <p></p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">8 weeks pregnant bellies</h1>
+            <p>For many expecting moms, it's still too early to have a true pregnancy bump. But it may be getting harder to hide the changes your body is undergoing. If you're not ready to share your news, you may have to get creative with loose clothing that hides your chest and belly. An oversized cardigan, button-down shirt, or sweatshirt over leggings may do the trick for now.</p>
+            <p>The first trimester isn't usually a beauty enhancer. Thanks to fatigue and nausea, you may have dark circles under your eyes and a pale or greenish tint to your skin. (Early pregnancy can bring new meaning to the phrase "green around the gills.") But never fear, it won't be too long before you're sporting a beautiful bump, thicker hair, and glowing skin. Pregnancy affects women differently, but many expecting moms feel (and look) amazing in the second trimester, so hang in there.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

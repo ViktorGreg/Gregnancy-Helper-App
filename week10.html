@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">10th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Hearing the heartbeat</b></p>
+            <p>You may hear your baby's heartbeat on a fetal Doppler during your next prenatal visit. It's much faster than an adult heartbeat – it sounds like galloping horses. You may want to take your phone out and record it.</p>
+            <p><b>NIPT test</b></p>
+            <p>You can take the NIPT blood test (short for noninvasive prenatal testing) this week. It screens for Down syndrome and a few other conditions, and can tell you whether you're having a boy or a girl. Be sure to tell your provider if you'd rather not find out!</p>
+            <p><b>First ultrasound</b></p>
+            <p>More and more doctors are doing ultrasounds for their patients during the first trimester – as early as 6 to 10 weeks. Your provider may want you to have an early ultrasound if you've had a previous pregnancy complication, such as a miscarriage or ectopic pregnancy. At this early point in pregnancy, you'll probably have a transvaginal ultrasound.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 10 weeks</h1>
+            <p><b>Your baby's eyes</b></p>
+            <p>The main parts of the eye that enable your baby's vision – the cornea, iris, pupil, lens, and retina – are fully formed. Eyelids cover your baby's eyes, and they'll stay shut until you're 27 weeks pregnant.</p>
+            <p><b>Your baby has teeth!</b></p>
+            <p>Your baby's teeth are starting to harden and connect to the jaw bone. A few babies are born with a tooth or two, but most don't sprout a first tooth until 6 to 10 months old.</p>
+            <p><b>Early brain development</b></p>
+            <p>Your baby's forehead temporarily bulges with their developing brain and sits very high on their head, which measures half the length of their body. Synapses in your baby's spinal cord allow them to move their limbs and fingers.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1>Pregnancy symptoms during week 10</h1>
+            <p><b>Body changes</b></p>
+            <p>The thickening in your midsection is most likely due to slight weight gain and bloating. You're probably between regular and maternity clothes now, so pants and skirts with stretchy waistbands are must-haves. Here are some maternity fashion hacks to make your regular clothes fit longer into pregnancy.</p>
+            <p><b>Excess saliva</b></p>
+            <p>You may be salivating more than usual, especially when you're nauseated. It's common and normal to have extra saliva during pregnancy, especially in the first trimester. If you're unable to swallow your saliva, spit it out. Drinking more water, chewing gum, and sucking on hard candy can help you swallow excess saliva more easily.</p>
+            <p><b>Vaginal discharge</b></p>
+            <p>You're not imagining it – you may have a lot more vaginal discharge during pregnancy because of higher levels of estrogen. Healthy discharge is odorless or mild-smelling and milky white. You don't need to do anything about it. But call your healthcare provider if you see a sudden change in the type of discharge (like if you're continuously leaking fluid); it smells strong or unpleasant; or it's gray, yellow, or green.</p>
+            <p><b>Newly visible veins</b></p>
+            <p>You might be noticing blue, prominent veins across your chest, breasts, and belly. As your body produces more blood to support your pregnancy, your veins enlarge and are more visible. You may also develop varicose veins in your legs and lower body as your uterus grows. The good news: They often disappear or improve after you give birth.</p>
+            <p><b>Mood swings</b></p>
+            <p>You may find yourself experiencing a wide range of intense emotions right now, from elation to sadness. Take comfort in knowing that mood swings are normal during pregnancy. Stress, fatigue, and hormonal changes affect your levels of neurotransmitters (chemical messengers in the brain). And, of course, there's also the range of feelings you may have about becoming a parent. But if the negative feelings persist, you may be experiencing pregnancy depression. Talk to your healthcare provider and ask for help.</p>
+            <p><b>Morning sickness</b></p>
+            <p>Your nausea and vomiting may be worse than ever: Morning sickness peaks around 9 or 10 weeks of pregnancy for many women. That's when levels of the pregnancy hormone human chorionic gonadotropin (hCG) are highest (morning sickness is thought to be linked to rises in hCG and estrogen). The good news: Your morning sickness may soon start to fade. At 11 weeks, hCG levels start to fall, and by 15 weeks they've dropped about 50 percent from their peak. Many expecting moms get relief from morning sickness early in the second trimester.</p>
+            <p><b>Dizziness</b></p>
+            <p>With 30 to 50 percent more blood pumping through your veins, your body is working harder than usual. Your nervous and cardiovascular systems mostly adjust to these changes without problems, but occasionally there may not be enough blood flow in your brain, making you feel dizzy or lightheaded. If this happens, sit or lie down right away and put your head between your knees if possible. If you're driving, immediately pull over and stop the car until you feel better.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <p><b>Review your finances</b></p>
+            <p>A new baby may require a new budget. You'll have more expenses, plus you may lose an income if you or your partner decides to stay home with your baby. Check out our guide to family finances for new parents. You'll want to look into life and/or disability insurance, make sure you have a will, consider how your baby will affect your taxes, and moreA new baby may require a new budget. You'll have more expenses, plus you may lose an income if you or your partner decides to stay home with your baby. Check out our guide to family finances for new parents. You'll want to look into life and/or disability insurance, make sure you have a will, consider how your baby will affect your taxes, and more.</p>
+            <p><b>Try prenatal yoga</b></p>
+            <p>Yoga focuses on stretching and strengthening, awareness of the breath, and engaging the mind and spirit. Prenatal yoga is specifically tailored for expecting moms to provide safe exercise and help prepare for labor, birth, and parenting. You can find classes online, but some moms-to-be prefer in-person classes because of the built-in community of pregnant women.</p>
+            <p><b>Get help for morning sickness</b></p>
+            <p>To soothe morning sickness, it can help to have five to six small meals a day, eat cold foods, and have someone else prepare your food. Some expecting moms find that cooking smells trigger nausea, and it's easier to get take-out from a restaurant or ready-to-eat foods from the grocery store. You can also ask your provider about safe medications for morning sickness.</p>
+            <p><b>Watch out for UTIs</b></p>
+            <p>Urinary tract infections (UTIs) are more common during pregnancy. Let your caregiver know if you have pain when urinating or during sex, pelvic discomfort or lower abdominal pain, a frequent urge to pee even when little urine comes out, or cloudy and foul-smelling urine. If you have a UTI, course of antibiotics will clear it up.</p>
+            <p><b>Think about when you'll announce your pregnancy</b></p>
+            <p>You may not be quite ready to tell friends and family – or you may have already told everyone! You get to choose when to make your pregnancy announcement. Some women tell loved ones first and wait longer to reveal their pregnancy at work and tell their boss they're pregnant. The decision is yours based on your own comfort level, and perhaps your relationship with your boss. There's no rule or law that states exactly when you have to tell your employer you're pregnant, but letting your boss know within a reasonable window of time will give you both longer to work on a plan for your maternity leave.</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1 style="text-align: center;">10 weeks pregnant bellies</h1>
+            <p>At 10 weeks pregnant, you may notice that your belly looks rounder, especially if this is your second pregnancy (or third, or fourth …) or you're expecting multiples. It's also completely normal if you're not showing and see absolutely no difference at this point. The size of your bump depends on many things, including your body type.</p>
+            <p>You may have gained a few extra pounds by now. Experts recommend a pregnancy weight gain of 1 to 5 pounds in the first trimester – but some women gain more and some gain less.</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

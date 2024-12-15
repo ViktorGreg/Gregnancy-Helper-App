@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">21th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Baby kicks</b></p>
+            <p>Soon, other people may be able to feel your baby move by putting a hand on your belly. Your baby's initial fluttering movements will turn into full-fledged kicks and nudges.</p>
+            <p><b>Hiring a doula</b></p>
+            <p>A doula is a trained labor and birth assistant who can support you during your baby's birth. If you're looking for a doula, start interviewing candidates soon.</p>
+            <p><b>Swimming during pregnancy</b></p>
+            <p>Swimming is one of the best exercises for expecting moms. It's low-impact and gentle on your body, and can help ease pregnancy aches and pains. As your belly gets bigger, it's extra nice to float, weightless, in the water.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1 style="text-align: center;">Baby development at 21 weeks</h1>
+            <p><b>Your baby's taste buds</b></p>
+            <p>Your baby has working taste buds and can taste what you eat when they swallow your amniotic fluid.</p>
+            <p><b>Sucking reflex</b></p>
+            <p>Your baby's sucking reflex is starting to develop, and your baby can suck their thumb. (You may have seen this on an ultrasound!)</p>
+            <p><b>Your baby's skin</b></p>
+            <p>Smooth, gorgeous skin is in your baby's future – but for now, their skin is wrinkled and translucent. It appears red because of visible blood vessels.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 21</h1>
+            <p><b>Varicose veins</b></p>
+            <p>You're more prone to varicose veins now. As your pregnancy progresses, the weight of your uterus puts increasing pressure on the veins in your legs. Higher progesterone levels, which may cause the walls of your veins to relax, can make the problem worse. Minimize varicose veins by exercising daily, gaining your recommended amount of pregnancy weight, elevating your feet to heart level or higher, avoiding crossing your legs or ankles while sitting, and not standing or sitting for long periods of time without moving. Wearing compression socks can also help by increasing the blood flow from your legs.</p>
+            <p><b>Bleeding gums</b></p>
+            <p>About half of expecting moms get pregnancy gingivitis – inflamed gums that bleed when brushed or flossed. It's not likely to harm your baby or otherwise affect your pregnancy unless you have severe gum disease, which has been linked to some complications. Make sure to practice good oral hygiene by brushing twice daily and flossing daily. It's safe to go to the dentist during pregnancy – in fact, it's especially important to have regular dental checkups, cleanings, and any necessary treatments.</p>
+            <p><b>Clumsiness</b></p>
+            <p>Starting to feel a bit off balance or clumsy? As your belly grows, your center of gravity changes, so you may begin to occasionally feel a little unsteady on your feet. Try to avoid situations with a high risk of falling; trauma to your abdomen could be dangerous for you and your baby. Slow down, avoid risky tasks (like climbing a ladder to change a lightbulb), wear low-heeled shoes, and walk extra carefully on uneven, wet, or icy surfaces</p>
+            <p><b>Braxton Hicks contractions</b></p>
+            <p>Braxton Hicks are "practice" uterine contractions that are mostly infrequent, irregular, and painless. They start early in pregnancy, but you probably won't start feeling them until around 21 weeks. (Some women never notice them, and that's okay, too.). It's most common to have Braxton Hicks contractions at the end of the day, when you're dehydrated or have a full bladder, or during or after physical activities including sex. Braxton Hicks are harmless, but they can be difficult to distinguish from preterm labor. If you're having regular contractions, or any signs of preterm labor, call your doctor or midwife right away.</p>
+            <p><b>Heartburn</b></p>
+            <p>Heartburn is a burning sensation that often extends from the bottom of the breastbone to the lower throat. It's common during pregnancy because of hormonal and physical changes. Many women experience heartburn for the first time while pregnant, and although it's generally harmless, it can be quite uncomfortable. To get relief, check out these ways to prevent and minimize heartburn during pregnancy.</p>
+            <p><b>Weight gain</b></p>
+            <p>At this point in pregnancy, you may be gaining about a pound a week. To learn what a healthy weight gain is for you during pregnancy, talk to your doctor or midwife and use our Pregnancy Weight Gain Calculator. Keep in mind that guidelines aren't set in stone. Your target weight gain will be different depending on your health needs. And if you're overweight, obese, or underweight, it's especially important to have a customized approach to your pregnancy weight gain.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 21 weeks pregnant</h1>
+            <p><b>Check your rings</b></p>
+            <p>It's common to have some pregnancy-related swelling in your fingers as the weeks go on. If your rings are feeling snug, do yourself a favor and take them off now before they get stuck. You may want to wear them on a chain close to your heart. (Note: If you have more than moderate swelling in your hands, call your provider.)</p>
+            <p><b>Avoid unsafe activities</b></p>
+            <p>As your belly grows, it's important to avoid unsafe activities that have a high risk of falling or other dangers. That includes scuba diving, contact sports, snowboarding, downhill skiing, hot yoga, horseback riding, hot tubbing, four wheelers, water slides, and some amusement park rides.</p>
+            <p><b>Review your finances</b></p>
+            <p>Adding a new member to the family changes everything, including your finances. Taking the time to rearrange your budget to make room for your baby can lower your stress levels and help you feel more secure. Though it's probably not the most enticing thing on your to-do list, it's smart to consider the big financial questions regarding insurance, taxes, wills, and childcare sooner rather than later.</p>
+            <p><b>Create your baby registry</b></p>
+            <p>If you haven't created a baby registry yet, now is a good time. You're going to need a lot of baby products for your little one, so it's wonderful when friends and family chip in. Not sure where to start? Our Baby Registry Builder makes it easy to choose the best registries for your needs and decide what to put on them.</p>
+            <p><b>Soothe your stress</b></p>
+            <p>Everyone has some stress in their lives, but when it's constant or overwhelming, it can cause problems. Some studies have linked chronic stress during pregnancy to premature birth, preeclampsia, and low birthweight. To relieve stress, try exercising, looking to friends and family for support, and practicing mindfulness techniques. If your stress becomes overwhelming, talk to your provider and consider seeking help from a therapist.</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="content6">
+            <h1 style="text-align: center;">21 weeks pregnant bellies</h1>
+            <p>This may be a golden time in pregnancy, when your belly is big enough to look pregnant and adorable but not big enough to make you super uncomfortable. If you want to flaunt your new curves, wear form-fitting clothes or cinch a belt just above your bump.</p>
+        </div>
+    </div>
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

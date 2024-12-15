@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <link rel="stylesheet" href="template.css">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFE9D0;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    text-decoration: underline;
+    scale: 1.2;
+    transition: 0.1s;
+}
+.group{
+    margin: 25px;
+    gap: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.content p{
+    font-size: 25px;
+}
+.content h1{
+    margin: 10px;
+    color: white;
+    font-size: 4em;
+}
+.content img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 5px;
+}
+.content2 p, .content3 p,.content4 p{
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 1.2em;
+}
+.container img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 5px;
+}
+.laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week!</h1>
+            <p style="text-align: center;">2nd Week of Pregnancy</p>
+            <img src="preggywomen.jpg" alt="">
+        </div>
+        <div class="content2">
+            <p>You’re not pregnant yet, but if you conceive this week, 
+            you’ll be two weeks pregnant. That’s because healthcare
+            providers user your last menstrual period to determine your due date, so technically the first day of your period is also the first day of your pregnancy. Since you ovulate about two weeks into your cycle, conception happens around the time you’re two weeks pregnant.
+            </p><br>
+            <p>The best time to conceive
+                You're most fertile during the three days leading up to ovulation. Signs you may be ovulating include changes in you basal body temperature, breast tenderness, mild cramps, and increased vaginal discharge.
+            </p><br>
+        </div>
+        <div class="content3">
+            <p>Baby development at 2 weeks
+                Getting ready to grow a baby
+                During the past few days, an increase in estrogen and progesterone prompted the lining of your uterus to thicken to support a fertilized egg. At the same time, in your ovaries, eggs have "ripened" in fluid-filled sacs called follicles.
+            </p>
+        </div>
+        <img src="2weeks 1.png" alt="">
+        <div class="content4">
+            <p>An egg is released
+                Once you ovulate, an egg erupts from its follicle and is swept from your ovary into a fallopian tube. Ovulation doesn't necessarily occur right in the middle of your cycle. For example, it could happen any time between days 9 and 21 for women with a 28-day cycle.
+            </p>
+        </div>
+    </div>
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>

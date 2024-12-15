@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Helper App</title>
+</head>
+<style>
+*{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+    background: linear-gradient(#ff738b, #ffdab9);
+    height: 100%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFE9D0;
+        padding: 5px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header a{
+        text-decoration: none;
+        color: black;
+    }
+    header a:hover{
+        text-decoration: underline;
+        scale: 1.2;
+        transition: 0.1s;
+    }
+    .group{
+        margin: 25px;
+        gap: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container, .container2, .container3, .container4, .container5{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        margin: 10px;
+        color: white;
+        font-size: 4em;
+    }
+    .content3 h1, .content5 h1, .content7 h1, .content4 h1, .content6 h1 {
+        font-size: 4em;
+        margin: 10px;
+    }
+    .content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 5px;
+    }
+    .content2 p, .content3 p,.content4 p, .content5 p, .content6 p, .content7 p, .content8 p, .content9 p, .content10 p, .content11 p{
+        margin-left: 90px;
+        margin-right: 90px;
+        font-size: 1.2em;
+    }
+    .container img{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    }
+    .laman{
+            display: flex;
+            justify-content: center;
+        }
+        .contain{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            box-shadow: 4px 4px 4px black;
+            border-radius: 25px;
+            }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            transition: height 0.3s ease; /* Smooth height change */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+        }
+        .card a {
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .card button{
+            padding: 5px;
+            /* border: 1px solid; */
+            box-shadow: 1px 1px 1px black;
+            border-radius: 8px;
+            background-color: white; 
+        }
+        .card button:hover{
+            scale: 1.02;
+            transition: 0.3s;
+        }
+        .card.expanded {
+            height: 100%;
+        }
+        .extra-content {
+            display: none;
+            margin-top: 10px;
+            color: #333;
+        }
+        .card.expanded .extra-content {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        } 
+</style>
+<body>
+    <header>
+        <h1>Pregnancy Helper App</h1>
+        <div class="group">
+            <a href="home_copy.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="">Help</a>
+            <a href="">Account</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1 style="text-align: center;">Highlight of the week</h1>
+            <p style="text-align: center;">9th Week of the Pregnancy</p>
+            <img src="preggywomen.jpg" alt=""> 
+        </div>
+        <div class="content2">
+            <p><b>Your baby's body</b></p>
+            <p>Your baby has all the essential body parts now, including elbows and knees. On your baby's face, the upper lip, nose, and eyelids have formed. And your baby's tiny toes are visible!</p>
+            <p><b>Warning signs of a pregnancy complication</b></p>
+            <p>Lower back pain, vaginal bleeding or spotting, and persistent itching are among the pregnancy symptoms you shouldn't ignore. Always reach out to your doctor or midwife when you have a concern – that's what they're there for</p>
+            <p><b>Feeling exhausted?</b></p>
+            <p>Not only does it take a lot of energy to make a baby, but pregnancy brings all sorts of sleep disturbances, including nausea, heartburn, and a frequent need to pee. Try to nap when you can, and consider investing in a good pregnancy pillow if you're having trouble getting comfy in bed.</p>
+            
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content3">
+            <h1>Baby development at 9 weeks</h1>
+            <p><b>Teeth are budding</b></p>
+            <p>Ten tiny tooth buds are developing within each band of gums. (They'll transform into the 20 "baby teeth" that eventually fall out during childhood.) Next week, the teeth start to harden and connect to your baby's jaw. You'll see these pearly whites start to poke out when your baby gets a first tooth, usually between 4 and 7 months old. Some babies are born with a tooth, but this is rare.</p>
+            <p><b>Your baby's heart</b></p>
+            <p>The four chambers of your baby's heart have formed. If you expect to hear the familiar, steady "lub-dub" sound of a human heartbeat at a prenatal appointment, you're in for a surprise. Many people describe the sound of their baby's heartbeat as similar to the thunder of galloping horses. That's because your baby's heart beats about twice as fast as yours does.</p>
+            <p><b>The placenta takes over</b></p>
+            <p>Your body is not only growing a new baby, but also a new organ – the placenta, which is attached to your uterus and connected to your baby through the umbilical cord. Your placenta is developed enough now to take over most of the critical job of producing hormones that help your baby grow and develop. By the end of your pregnancy, it will be about 9 inches in diameter and an inch thick, not unlike a large pancake. Some moms choose to eat the placenta after birth, though the benefits of this haven't been proven.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content4">
+            <h1 style="text-align: center;">Pregnancy symptoms during week 9</h1>
+            <p><b>Food cravings</b></p>
+            <p>Having any food cravings yet? The extreme hormonal changes you go through during pregnancy can have a huge impact on taste and smell. Some experts think that cravings for certain foods are linked to a mom-to-be's nutritional needs, but others think that pregnancy cravings can't be explained that easily. If you're having cravings, go ahead and indulge in moderation. But if you start to crave nonfood substances, such as laundry starch, dirt, or clay (a condition called pica), let your provider know.</p>
+            <p><b>Food aversions</b></p>
+            <p>You may suddenly find that certain foods you used to enjoy now seem completely repulsive. Food aversions may be a side effect of rapidly increasing levels of estrogen in your system. Common food aversions during pregnancy include meat, eggs, dairy products, spicy foods, foods with strong smells, and coffee.</p>
+            <p><b>Heightened sense of smell</b></p>
+            <p>Many newly pregnant women find they're overwhelmed by gag-inducing smells. A heightened sense of smell is a common side effect of rapidly increasing levels of pregnancy hormones. If cooking smells are making you feel particularly ill, ask your partner or another loved one to make your meals, or get restaurant takeout or ready-to-eat food from the grocery store</p>
+            <p><b>Nausea and vomiting</b></p>
+            <p>This is peak morning sickness time. Some experts believe that morning sickness may be the body's way of protecting your baby from toxins in early pregnancy. This theory makes sense because the first trimester – when most women have the strongest morning sickness – is the crucial period of development when all of your baby's organs and physical structures form. Nausea can strike at any time of day or night, not just in the morning, but that doesn't mean you have to suffer. Try these remedies for morning sickness to get some relief.</p>
+            <p><b>Heartburn</b></p>
+            <p>Even if you've never had heartburn before, you might experience it during pregnancy due to hormonal and physical changes. It's an unpleasant burning sensation between your lower throat and the bottom of your breast bone. If you're suffering from heartburn, avoid carbonated drinks, caffeine, chocolate, citrus fruits and juices, tomatoes, mustard, vinegar, mint products, and processed meats. Foods that are fatty, spicy, fried, or highly seasoned may also upset your stomach. Chewing gum after eating can help neutralize your stomach acids.</p>
+            <p><b>Constipation</b></p>
+            <p>Up to half of pregnant women will have constipation during pregnancy. Keep things moving with plenty of water and high-fiber foods like fruits and vegetables, beans, and whole grains. Some moms swear by adding unprocessed wheat bran or prune juice to their diets. Pregnancy exercise can also ease constipation.</p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="content5">
+            <h1 style="text-align: center;">Pregnancy checklist at 9 weeks pregnant</h1>
+            <p><b>Start a daily ritual to connect with your baby</b></p>
+            <p>It's not too early to start bonding. Take some time each day to sit quietly: Focus on the miracle unfolding inside you, and plan for the kind of parent you want to be. Or you may want to journal or write a letter to your baby</p>
+            <p><b>Share your pregnancy with your partner</b></p>
+            <p>Though your partner may never understand the visceral realities of pregnancy, they can still participate in special moments and bond with your baby before birth. You can involve your partner in your pregnancy by encouraging them to talk to the baby, reading pregnancy books or looking at pregnancy apps together, and making joint decisions</p>
+            <p><b>Start walking</b></p>
+            <p>Walking is a safe activity you can continue throughout pregnancy, and one of the easier ways to start exercising if you haven't previously been active. If you've been walking for exercise, keep it up. If you were fairly inactive before you got pregnant, start with a slow walk and gradually build up to brisk jaunts of 20 to 60 minutes, as long as your healthcare provider has given you the go-ahead. When you're walking, make sure to protect your skin with SPF to avoid melasma, drink plenty of water, and have a high-protein snack 30 minutes before you exercise. If it's hot, stay cool with a hat and a spray bottle filled with water – or walk indoors on a treadmill</p>
+            <p><b>Get vaccinated</b></p>
+            <p>The flu shot and COVID-19 vaccine are safe and recommended for all pregnant women. Both shots significantly lower your chances of getting a severe infection and being hospitalized. There's also an important benefit to your baby: Antibodies that you develop during pregnancy in response to the flu shot and COVID vaccine are passed to your baby and provide protection after birth. That protection can be crucial because babies younger than 6 months can't be vaccinated against flu (are especially vulnerable to complications from flu) or COVID. Learn which vaccines are safe for pregnancy, and which ones to avoid.</p>
+            <p><b>Watch out for household chemicals</b></p>
+            <p>Take a closer look at what's inside your cupboards. Some cleaning products, pesticides, paint, solvents, and lead in drinking water from old pipes can be harmful to your pregnancy.</p>
+        </div>
+    </div>
+    <div class="container4">
+        <div class="content5">
+            <h1 style="text-align: center;">9 weeks pregnant bellies</h1>
+            <p>If the band on your undies is digging uncomfortably into your growing waist, it's probably time to buy some maternity underwear. Many moms-to-be find that their underwear is one of the first things to feel too tight, even early in pregnancy. That's why maternity underwear is so amazing – it rests easily under your bump or has a panel to stretch over your belly for more support. Or, you can always just buy your regular brand of undies a size or two larger. Whatever helps you feel comfortable is important during pregnancy!</p>
+        </div>
+    </div>
+
+    <div class="laman">
+        <div class="contain">
+        <div class="card">
+            <h2 style="text-align: center;">Sources</h2> 
+            <button onclick="toggleDiv(this)">Open</button><br>
+            <p class="extra-content">GREG INC. Team is committed to providing helpful pregnancy and parenting information. When creating and updating content, we rely on credible sources: respected health organizations, professional groups of doctors and other experts, and published studies in peer-reviewed journals. We believe you should always know the source of the information you’re seeing. Learn more about our editorial and medical review policies.</p>
+            <p class="extra-content">ACOG. 2024. How your fetus grows during pregnancy. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy</a> [Accessed August 2024]</p>
+            <p class="extra-content">ACOG. 2022. Induction of Labor at 39 Weeks. American College of Obstetricians and Gynecologists. <a href="">https://www.acog.org/womens-health/faqs/induction-of-labor-at-39-weeks</a> [Accessed August 2024]</p>
+            <p class="extra-content">Cleveland Clinic. 2024. Fetal Development: Stages of Growth. <a href="">https://my.clevelandclinic.org/health/articles/7247-fetal-development-stages-of-growth</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Fetal development: The 3rd trimester. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/fetal-development/art-20045997</a> [Accessed August 2024]</p>
+            <p class="extra-content">Mayo Clinic. 2022. Overdue pregnancy: What to do when baby's overdue. <a href="">https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/overdue-pregnancy/art-20048287</a> [Accessed August 2024]</p>
+            <p class="extra-content">MedlinePlus (ADAM). 2023. Fetal development. <a href="">https://medlineplus.gov/ency/article/002398.htm</a> [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP et al. 1992. Fetal cross-rump length: Reevaluation of relation to menstrual age (5-18 weeks) with high-resolution real-time US. Radiology 182: 5-1-505. <a href="">https://pubmed.ncbi.nlm.nih.gov/1732970/</a> [Accessed August 2024]</p>
+            <p class="extra-content">Vintzileos AM et al. 1984. The ultrasound femur length as a predictor of fetal length. Obstetrics & Gynecology 64(6): 779-82. <a href="">https://pubmed.ncbi.nlm.nih.gov/6390277</a>/ [Accessed August 2024]</p>
+            <p class="extra-content">Hadlock FP 1984. Estimating fetal age: Computer-assisted analysis of multiple fetal growth parameters. Radiology 152: 497-501. <a href="">https://pubmed.ncbi.nlm.nih.gov/6739822/</a> [Accessed August 2024]</p>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    function toggleDiv(button) {
+        const parentDiv = button.parentElement; // Get the parent div of the button
+        parentDiv.classList.toggle('expanded'); // Toggle the 'expanded' class
+    }
+</script>
+</html>
